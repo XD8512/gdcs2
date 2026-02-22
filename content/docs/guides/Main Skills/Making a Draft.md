@@ -22,7 +22,7 @@ It's important to note the difference between the *ideas* you had in your head, 
 Note that it's easy to get sidetracked when focusing on one or the other. You can make ideas so far removed from the GD editor that it's impossible to make them in-game, and you can get so focused on executing ideas that you forget what you were trying to do. It's important to prioritize tasks so you can minimize the risk of this happening.
 
 ## Setting Priorities
-If you recall **MoSCoW** from the [last guide](https://discord.com/channels/414295025883545600/1083454144964202636/1354197537103282276), it's useful for setting priorities and not getting "lost in the sauce" while executing your ideas.
+If you recall **MoSCoW** from the [last guide](/docs/guides/main-skills/planning-a-level/), it's useful for setting priorities and not getting "lost in the sauce" while executing your ideas.
 
 Start your levels with a **minimum viable product**: as mentioned before, this will be the __simplest, least ambitious set of goals__. Prioritize the most crucial ideas for this MVP and ignore everything else until those parts are done. There are many ways to save time when actually building, whether it's for your MVP or everything else, but they essentially boil down to these principles:
 
@@ -45,7 +45,7 @@ You'll often hear people say to practice and experiment, and this is a fairly ef
 Failure is one of the most important parts of creating, and it's crucial to handle it well and bounce back quickly. The best creators are those who *respond well to failure* and *adapt accordingly*. As you can expect, there's a process for this as well.
 
 - Identify why things didn't go to plan by checking where your low-level logic doesn't match your high-level plans. For example, if you want an object to rotate around a point (a high-level plan), you need to set up your Rotate triggers properly which is a low-level act.
-- Once you've found any mismatches, try to find a solution based on this knowledge. You know your own levels best, which makes this process better than immediately asking others to help. There's also the [Solving Problems](https://discord.com/channels/414295025883545600/1268155631991521321/1268155631991521321) guide if you need help making solutions.
+- Once you've found any mismatches, try to find a solution based on this knowledge. You know your own levels best, which makes this process better than immediately asking others to help. There's also the [Solving Problems](/docs/guides/main-skills/solving-problems/) guide if you need help making solutions.
 - If you can't make a solution yourself, then ask others for help. Start by giving the high-level explanation of your goals, then provide the low-level specific that you're struggling with. For example, you may say "I want some decoration to rotate around a point, but nothing happens when the rotate trigger is activated" and provide a video showing how you set up the triggers.
 
 It's a good idea to get used to failure - after all, it happens a lot as a creator. But when you fail, try to *fail fast* so you don't waste too much time. This helps you try new ideas faster and saves a lot of time working on your levels.

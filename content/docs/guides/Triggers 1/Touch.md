@@ -38,7 +38,7 @@ Rather than clicking, **hold mode** makes it so that __you activate the touch tr
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1WNCZlLxRMsuuqvyPW2PIXtORuO5x0F6d/preview?usp=drivesdk></iframe></div>
 
 ## P1 Only / P2 Only
-The settings **P1 only** and **P2 only** can __limit the touch trigger to only detect Player 1’s controls or Player 2’s controls__. They are unrelated to [dual mode](<https://discord.com/channels/414295025883545600/1083169667906027551/1086495080300421180>) or 2-player mode:
+The settings **P1 only** and **P2 only** can __limit the touch trigger to only detect Player 1’s controls or Player 2’s controls__. They are unrelated to dual mode or 2-player mode:
 - With **P1 only** enabled, the touch trigger will only activate when the player presses the W A D keys, space bar, or mouse left click for PC, or taps on the left side of the screen for mobile.
 - With **P2 only** enabled, the touch trigger will only activate when the player presses the arrow keys for PC or taps on the right side of the screen for mobile.
 
@@ -59,7 +59,7 @@ None
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1q9zP6Wm9iuSqC57Zl-ZuQ4dHAc4Bh2C_/preview?usp=drivesdk></iframe></div>
 
-## Normal Behavior 
+## Normal Behavior
 Normally, the toggle orb/block can only toggle off the group ID; checking Activate group will toggle on the group ID instead and spawn any triggers in that group ID.
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1RqKCjZ6HVROd2atQsL5kI36RX4v-Hhrf/preview?usp=drivesdk></iframe></div>

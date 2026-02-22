@@ -43,7 +43,7 @@ The features include the following:
 - Edit Velocity: Lets you edit the velocity when switching rotation.
 - VelModX / VelModY: Multiplies the amount of force applied in X and Y axis after changing directions.
 - Override Velocity: Sets the velocity instead of multiplying it.
-- Change Channel: Changes the Channel to the number entered in the **Target Channel** box below. 
+- Change Channel: Changes the Channel to the number entered in the **Target Channel** box below.
  - To revert back to normal, place another trigger, go to Edit Group and set the channel in the bottom right corner to the one you have entered in the first trigger. Once you do that, click the Edit Object button and set the Target Channel to 0 as a reset.
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1Gdc6CFPChfEENMWQhO3j5rCOfrVdSy04/preview?usp=drivesdk></iframe></div>
@@ -63,17 +63,13 @@ Additionally, you can replace a gravity portal with this trigger. However, it is
 ## Offsetting Players in Dual Mode
 By placing two purple jump pads next to each other, you can offset one of the icons making the dual the more engaging and challenging. This exact things was done multiple times in [Badland Full Version](<https://www.youtube.com/watch?v=p4iYbmeWn9E&t=62s>) by MusicSounds.
 
-You can also go crazy with this gimmick just like in a [later part of the same level](<https://www.youtube.com/watch?v=p4iYbmeWn9E&t=136s>). 
+You can also go crazy with this gimmick just like in a [later part of the same level](<https://www.youtube.com/watch?v=p4iYbmeWn9E&t=136s>).
 
-In Update 2.1, we could also use this trick, however we had to rely on bugs that made this possible. For those interested, this topic is explained in detail [here](<https://discord.com/channels/414295025883545600/1179853643348967475/1179853643348967475>).
+In Update 2.1, we could also use this trick, however we had to rely on bugs that made this possible. For those interested, this topic is explained in detail [here](/docs/guides/gameplay-1/player-snap-bug/).
 ## Going UP
 By making the player go back and forth while guiding a camera to slowly go up, you can create some interesting gameplay. This was used twice in Toxic Surge by GiaMmix.
 
 {{< youtube LhLE9MqU_SQ >}}
-
-
-
-## Return to the [Table of Contents](<https://discord.com/channels/414295025883545600/1197970940882067466/1197970940882067466>) here
 
 
 

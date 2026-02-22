@@ -55,7 +55,7 @@ Note that you cannot disable both Reset Full and Reset Step simultaneously as we
 
 - **Unique remap:** Works in conjunction with the spawn remapping system and __lets each sequence act independently__ instead of being influenced by other sequences.
 
-For example, when you have 1 sequence that loops groups 1-4 and [spawn remap](<https://discord.com/channels/414295025883545600/1085287228944691230/1190781073668456448>) this sequence to a different set of groups like 5-8, when one sequence ends the next one will start there. In the example above, if you spawn one sequence up until group 2 and start the remapped sequence, it will start at 7.
+For example, when you have 1 sequence that loops groups 1-4 and [spawn remap](/docs/guides/triggers-1/spawn/) this sequence to a different set of groups like 5-8, when one sequence ends the next one will start there. In the example above, if you spawn one sequence up until group 2 and start the remapped sequence, it will start at 7.
 
 Enabling unique remap will make both sequences act on their own. So now, if you stop at group 2 in either sequence, the other sequence will still start at 5 instead of 7.
 

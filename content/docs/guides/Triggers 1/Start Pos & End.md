@@ -21,8 +21,8 @@ The **Start Pos** trigger is one that allows custom starting locations in a leve
 - **Disable:** This option disables the Start Pos from being the starting location of the player. Options in the disabled Start Pos won’t have any effect, either.
 
 Now, these next few options may require some prior trigger knowledge:
-- **Reset Camera:** This option takes into account any previous camera effects that you may have added close to the Start Pos placement that are still in effect. Reset Camera will, as you guessed it, reset any offsets, rotations, or zooms, to make the Start Pos location less annoying to deal with when playtesting. I recommend reading the [camera triggers](<https://discord.com/channels/414295025883545600/1197970595544043670/1197970595544043670>) guide if you need help here.
-- **Target Order and Target Channel:** Target Order and Channel set the [target order and channels](<https://discord.com/channels/414295025883545600/1189381935412285450/1196604682538328084>) for the start position. Triggers will only activate if they're on the right channel, and on Order, will be activated in the order that was set for them beforehand.
+- **Reset Camera:** This option takes into account any previous camera effects that you may have added close to the Start Pos placement that are still in effect. Reset Camera will, as you guessed it, reset any offsets, rotations, or zooms, to make the Start Pos location less annoying to deal with when playtesting. I recommend reading the [camera triggers](/docs/guides/triggers-1/camera-triggers/) guide if you need help here.
+- **Target Order and Target Channel:** Target Order and Channel set the [target order and channels](/docs/guides/the-editor/using-channels/) for the start position. Triggers will only activate if they're on the right channel, and on Order, will be activated in the order that was set for them beforehand.
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1tGeCSw7w48Xk_xo48bODucdCjkoQhQLN/preview?usp=drivesdk></iframe></div>
 

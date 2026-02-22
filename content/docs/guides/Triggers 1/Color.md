@@ -28,9 +28,6 @@ The :BluePlus: lets you target special color channels, like the background.
 <div><iframe src=https://drive.google.com/file/d/1g1lSxwIxIJFwS53yy-KEJueyinBKa0WI/preview?usp=drivesdk></iframe></div>
 
 
-## Return to the [Table of Contents](https://discord.com/channels/414295025883545600/1193412346073325568/1193412346073325568) Here
-
-
 
 ## Credits
 Created by @koma5

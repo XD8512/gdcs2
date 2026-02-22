@@ -91,9 +91,6 @@ Additionally, you should play around with how you use gradients. You can stack t
 <div><iframe src=https://drive.google.com/file/d/1rIscaXtVmqIDOedZdCm6yQyzhhbP4kGQ/preview?usp=drivesdk></iframe></div>
 
 
-## Return to the [Table of Contents](https://discord.com/channels/414295025883545600/1083171532123164773/1083171532123164773) Here
-
-
 
 ## Credits
 Created by @ThunderBat and @koma5

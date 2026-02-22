@@ -256,8 +256,6 @@ Although outdated, it’s an interesting method of masking.
 - Layering masks make use of how Z layers work to make certain visual effects easily.
 - It is certainly a wise decision to take note of these masks and attempt to use them in projects, especially beyond the uses shown here.
 
-## Return To The [Table of Contents](https://discord.com/channels/414295025883545600/1104661433670717510/1104661433670717510) Here
-
 
 
 ## Credits

@@ -19,7 +19,7 @@ Randomize Start lets the animation start on a random frame. Use Speed lets you c
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1lZXb_fyEKlOARX5RAYUzDANWV24Afny3/preview?usp=drivesdk></iframe></div>
 
-The starting speed will always be 1.00. You MUST have the “Use Speed” option selected in order to change the speed of the animation. 
+The starting speed will always be 1.00. You MUST have the “Use Speed” option selected in order to change the speed of the animation.
 
 To change the speed of the animation, move the slider to the right to make it faster, if you want it to be slower, move the slider to the left. Negative numbers cause the animation to play in reverse.
 
@@ -51,7 +51,7 @@ Only If Active only enables animations on objects that are on-screen when the An
 
 None
 
-Finally, the monster animated objects at the start of the tab can be controlled using an Animate Trigger. These have special animation IDs, which are described in more depth [here](<https://discord.com/channels/414295025883545600/1086730690227355729/1152785673909182534>).
+Finally, the monster animated objects at the start of the tab can be controlled using an Animate Trigger. These have special animation IDs, which are described in more depth [here](/docs/guides/triggers-1/animate/).
 
 <div><iframe src=https://drive.google.com/file/d/1jbgRDc6COJWsEl7EoI9fnGjuCkcHTGnV/preview?usp=drivesdk></iframe></div>
 

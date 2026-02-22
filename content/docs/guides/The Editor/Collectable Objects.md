@@ -32,7 +32,7 @@ To edit the properties of the collectable you need to click on edit special. Thi
 
 <div><iframe src=https://drive.google.com/file/d/1TopFdwDgPvBtJRUs-ejVaxVmPoKCXdV-/preview?usp=drivesdk></iframe></div>
 
-Also found in this tab is the Silver User Coin. Its edit special menu is different from the rest of the collectable objects and is instead the same as the [Animated Objects’](<https://discord.com/channels/414295025883545600/1189378539875741726/1189378539875741726>) edit special menu.
+Also found in this tab is the Silver User Coin. Its edit special menu is different from the rest of the collectable objects and is instead the same as the [Animated Objects’](/docs/guides/deco-1/animated-objects/) edit special menu.
 
 
 

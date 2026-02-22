@@ -17,9 +17,9 @@ draft: false
 
 Level design has a few crucial components to it, the most important of which is a **level**. These are spaces where the player can interact with their environment. For instance, a board is the level for a board game, and a Geometry Dash level is the space itself. Levels are the most important part of a game; without them there wouldn’t even be any game to play, just rules with no actual setting.
 
-A good way to visualize levels is with a football field. The field falls under the definition of a level; the whole game happens inside the field, and it’s the space where all the players can interact with each other and the ball. Football is designed with the field in mind, and the field is designed around the game. 
+A good way to visualize levels is with a football field. The field falls under the definition of a level; the whole game happens inside the field, and it’s the space where all the players can interact with each other and the ball. Football is designed with the field in mind, and the field is designed around the game.
 ## Why is level design important?
-Level Design can influence the players’ *decisions* and *choices*, and guide them along the path set by the designer. It also greatly influences the player’s *emotions*, and can complement other seemingly unrelated concepts, such as decoration or theming. 
+Level Design can influence the players’ *decisions* and *choices*, and guide them along the path set by the designer. It also greatly influences the player’s *emotions*, and can complement other seemingly unrelated concepts, such as decoration or theming.
 
 Level design is also important because it makes up the majority of the gameplay and influences the feel of the game in general. As such, mistakes in level design are usually quite obvious and worsen the overall experience.
 ## Types of level design
@@ -51,7 +51,7 @@ Feedback is key when designing rooms; it lets the player determine certain thing
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/172wJOSFiFolV8SKmkzOL4yK-ar-WGjQV/preview?usp=drivesdk></iframe></div>
 
-You won’t usually need *all* of these methods at once in your gameplay, or you may overwhelm players. This is especially true of Sense of Progression and Limitations & Strategy; throwing every mechanic at the player just overwhelms them and will likely prevent them from actually learning. On the other hand, giving the player every pointer possible will likely make them feel babied. 
+You won’t usually need *all* of these methods at once in your gameplay, or you may overwhelm players. This is especially true of Sense of Progression and Limitations & Strategy; throwing every mechanic at the player just overwhelms them and will likely prevent them from actually learning. On the other hand, giving the player every pointer possible will likely make them feel babied.
 
 *Celeste* as a whole is a very good example of these concepts applied well. It gradually teaches the player the basic movement, and does the same for its custom mechanics. You won’t have to use more than two mechanics at a time for most rooms too, which keeps players from getting overwhelmed. There is always a sense of progression shown, and the shape language excels at its job.
 
@@ -69,7 +69,7 @@ A great example of a good goal is the Rubik’s cube. The Rubik’s cube already
 
 While there are many ways to ensure players’ solutions are valid, the most common way is to playtest your rooms. Others can provide different insights to help make your puzzles match your criteria better. They can also help you understand how the average player may feel when encountering your rooms for the first time, so always make sure that playtesting is part of your design process.
 ## Lock and Key principle
-As mentioned before, the Lock and Key principle is greatly related to objectives. Most objectives will follow it by having a lock (problem) opened by a key (solution). Do note that the Lock and Key principle is covered more in depth in [Mechanics 5](https://discord.com/channels/414295025883545600/1099913209319796748/1099913209319796748); this just explains some ways it’s used in room design.
+As mentioned before, the Lock and Key principle is greatly related to objectives. Most objectives will follow it by having a lock (problem) opened by a key (solution). Do note that the Lock and Key principle is covered more in depth in [Mechanics 5](/docs/guides/gameplay-2/mechanics-5-limitations-strategy/); this just explains some ways it’s used in room design.
 
 The Lock and Key principle can be used in far more complex ways. It’s very easy to make intricate puzzles by combining many small objectives together into one larger task. For instance, a player may need to obtain two keys; one to open the main lock, and a second key to open a *path to* the first key.
 
@@ -95,7 +95,7 @@ For example, you can directly tell the player that there is a goal and a reward.
 ** **
 
 Going back to the previous Rubik’s cube example, we can see that it also satisfies these criteria as well. The goal is shown to the player right after they pick it up for the first time; they see the cube in its solved state and then start to fiddle around with it. After some time, they scramble the cube completely, and try to solve it to return it to its original state. They might also notice how the cube slowly starts to resemble its solved state, showing their progress over time.
-## Central Mechanic & Critical Path. 
+## Central Mechanic & Critical Path.
 The **Central Mechanic** in a room is the main one used within that room. This helps the player learn that mechanic, and it also helps make the room feel less tedious and more cohesive. To implement a central mechanic, choose one of the mechanics in your level, and make that the main focus of that room.
 
 If your rooms use random mechanics instead of sticking to a few central ones, they could feel inconsistent and hard to learn, like the final room in The Core C-Side in *Celeste*. This room uses almost every mechanic available at this point, at the cost of being one of the least fun rooms in the game.
@@ -137,7 +137,7 @@ On the other hand, too much negative space can feel claustrophobic and repel pla
 
 ## Design Patterns
 
-Another important method for influencing the player’s choices and emotions is **Design Patterns**, the way you place features and gameplay elements in an area. These help players understand the purpose of an area, give it a more distinct identity, and complement the perception methods mentioned above. 
+Another important method for influencing the player’s choices and emotions is **Design Patterns**, the way you place features and gameplay elements in an area. These help players understand the purpose of an area, give it a more distinct identity, and complement the perception methods mentioned above.
 
 As with Player Perception, there are many design patterns you can use, such as the common ones covered here.
 
@@ -243,7 +243,7 @@ Here’s an example map which uses the nodes mentioned above, grouped into spati
 ## Environmental Storytelling
 This is how you tell a story using elements in the environment. Environmental storytelling has major ties to your decoration, but it has a place in gameplay so it’s worth mentioning here.
 
-To start environmental storytelling, decide what story you’re telling and the environment you want to design, including the emotions you wish to convey. It helps to get inspiration sources and brainstorm with others during this process, as mentioned in the [Getting Ideas](https://discord.com/channels/414295025883545600/1083453897848393799/1083453897848393799) guide. You may also develop concept art or sketches to assist here.
+To start environmental storytelling, decide what story you’re telling and the environment you want to design, including the emotions you wish to convey. It helps to get inspiration sources and brainstorm with others during this process, as mentioned in the [Getting Ideas](/docs/guides/main-skills/getting-ideas/) guide. You may also develop concept art or sketches to assist here.
 
 When actually developing your gameplay, it’s crucial to make the world feel **tangible**. Environments don’t revolve around the player unless you’re a deity in the story; as such, things should feel like they can logically continue without your presence. If a location’s been abandoned for a while, make its elements look overgrown and weathered, and include that as part of the gameplay. A warzone would have contested territory, barracks for soldiers, front & back lines, and so on.
 
@@ -251,7 +251,7 @@ Tangibility often means researching the environment to learn what components exi
 
 ** **
 
-In addition to tangibility, be aware of how you present your environment and the inferences players can draw from it. If your environment includes weathered ruins, players will conclude that a civilization used to live there. You can use [Narrative Details](https://discord.com/channels/414295025883545600/1233710767895740456/1240438655722590321) to your advantage here by creating context clues for the player to use.
+In addition to tangibility, be aware of how you present your environment and the inferences players can draw from it. If your environment includes weathered ruins, players will conclude that a civilization used to live there. You can use [Narrative Details](/docs/guides/deco-1/creating-details/) to your advantage here by creating context clues for the player to use.
 
 When decorating, we suggest learning about color theory via the Deco 2 guides. Different color schemes can greatly impact the emotions an area gives off, and provide info about things like the climate at play. As an example, the first panel below feels boring and dull compared to the ones next to it.
 

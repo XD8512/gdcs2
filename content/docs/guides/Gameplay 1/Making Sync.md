@@ -47,7 +47,7 @@ https://cdn.discordapp.com/attachments/1248071898999427123/1321256029387755591/S
 
 ## BPM Trigger :BPMTrigger:
 
-The [BPM trigger](https://discord.com/channels/414295025883545600/1194072364124749824) works similarly to guidelines, but is strictly aligned to the BPM set. You can also place beats between the bars with the **BPB** (Beats Per Bar) slider. This is helpful for adding extra clicks in the gameplay, which allows for engaging click patterns.
+The [BPM trigger](/docs/guides/triggers-1/bpm/) works similarly to guidelines, but is strictly aligned to the BPM set. You can also place beats between the bars with the **BPB** (Beats Per Bar) slider. This is helpful for adding extra clicks in the gameplay, which allows for engaging click patterns.
 
 This feature doesn’t work with vertical gameplay, limiting sync with things such as  percussive instruments to the X-axis. It also suffers the same cons as music guidelines, and should be used in moderation to avoid clutter.
 

@@ -23,7 +23,7 @@ Note that in the following sections, we include lists of examples. *These lists 
 
 # 2: Fixing Visual Bugs
 
-Visual bugs are pretty much inevitable, no matter how much time you spend polishing. You will always spot visual bugs, even after you upload a level. Minimizing distracting visual bugs, however, is possible. Replaying your level with different setups, getting other people to playtest, and asking for feedback will allow you to spot the bugs that you would otherwise gloss over. 
+Visual bugs are pretty much inevitable, no matter how much time you spend polishing. You will always spot visual bugs, even after you upload a level. Minimizing distracting visual bugs, however, is possible. Replaying your level with different setups, getting other people to playtest, and asking for feedback will allow you to spot the bugs that you would otherwise gloss over.
 
 It also helps to know where visual bugs usually crop up. The following is a list of some common ones.
 ## Layering Issues
@@ -44,7 +44,7 @@ When combining sections of a level, you have to make sure that all your groups s
 
 None
 
-When you build levels, there’s no reason to build outside what the camera sees, since it isn’t seen by the player. However, if the camera shows more than what you built, it’ll pick up all the rough edges in your detailing. The above image is an example of this: the bottom of the structure is in view, which breaks the immersion. 
+When you build levels, there’s no reason to build outside what the camera sees, since it isn’t seen by the player. However, if the camera shows more than what you built, it’ll pick up all the rough edges in your detailing. The above image is an example of this: the bottom of the structure is in view, which breaks the immersion.
 
 Camera culling is a particularly nasty issue where scaled-up objects will disappear when close to the side of the screen. This is because even though they are in view, their object coordinates are out of view, so the game does not display them. This is particularly noticeable in Dark Travel by JonathanGD, where the rightmost objects in the glow overlay aren’t rendered by the game.
 
@@ -62,7 +62,7 @@ None
 
 # 3: Messy Decoration
 
-When you combine your ideas, you’ll find that they don’t always fit together. They clash and look disorganized, or that the level generally feels messy. You’ll want to polish and clean up your decoration, so that it fulfills how you intend it to look. Finding a good balance between a polished look and a varied look is based on your taste, so there is no one-size-fits-all method to merge decoration. 
+When you combine your ideas, you’ll find that they don’t always fit together. They clash and look disorganized, or that the level generally feels messy. You’ll want to polish and clean up your decoration, so that it fulfills how you intend it to look. Finding a good balance between a polished look and a varied look is based on your taste, so there is no one-size-fits-all method to merge decoration.
 
 When decoration does clash, there are some usual suspects. The following is a list of some of them:
 ## High Detail, Low Contrast
@@ -86,9 +86,6 @@ None
 Of course, sometimes this spastic, random look is desirable, seen in levels such as False Horizon by lumpy. Only use this if it directly works with what you want.
 
 None
-
-
-## Return to the [Table of Contents](https://discord.com/channels/414295025883545600/1083171683227144193/1083171683227144193) Here
 
 
 

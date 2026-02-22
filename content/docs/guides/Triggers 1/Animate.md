@@ -24,7 +24,7 @@ The Group ID Box specifies the group the monster is set to, and the Animation ID
 ## Setup
 
 1. To apply animations, you must select a monster from the orbs tab and give it a new group.
-2. Place an Animate trigger down and input the group you gave the monster into the Group ID box. 
+2. Place an Animate trigger down and input the group you gave the monster into the Group ID box.
 3. Now you must input an Animation ID given from the index provided in the help menu.
 
 The two monsters that can be affected by this trigger are the one that looks like a dragon head and the one that looks like a flying dragon. These are referenced in the game files as Big Beast and Bat respectively.
@@ -45,7 +45,7 @@ This video shows each animation at work.
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1N--z7U1neZfAGJyN33PCY5glNnF_sdhR/preview?usp=drivesdk></iframe></div>
 
 ## Bat:
- 
+
 - **0 - idle01:** This is the default animation where it’s constantly flapping and bites at intervals but will sometimes not bite down.
 - **1 - idle02:** The head of the bat will be lifted up and the bat will blink once before returning to idle01.
 - **2 - idle03:** This is the same as the previous two but the start animation is now the bat frowning before continuing idle01.
@@ -89,9 +89,6 @@ All the other settings in the particle menu can be tweaked to what you desire. O
 Here is an example of the setup and final product, compared to a particle that isn't animated:
 
 <div><iframe src=https://drive.google.com/file/d/1mT7o3_jYfZ6b8CcqF2bSaIcF8gC-P8Zq/preview?usp=drivesdk></iframe></div>
-
-
-## Return To The [Table of Contents](https://discord.com/channels/414295025883545600/1193409360433528862/1193409360433528862) Here
 
 
 

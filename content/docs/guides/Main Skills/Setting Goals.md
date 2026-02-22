@@ -66,7 +66,6 @@ Doing this can give you significantly more time to work on big goals or having s
 ## Sources
 - [The Importance, Benefits, and Value of Goal Setting](<https://positivepsychology.com/benefits-goal-setting/>)
 - [The Science of Setting Goals - and How to Achieve Them](<https://www.icslearn.co.uk/blog/study-advice/the-science-of-setting-goals-and-how-to-achieve-them/#:~:text=Dopamine%20is%20considered%20a%20%27reward,of%20motivation%2C%20satisfaction%20and%20productivity.>)
-## Return to the [Table of Contents](https://discord.com/channels/414295025883545600/1083454609449816074/1083454609449816074) here
 
 
 

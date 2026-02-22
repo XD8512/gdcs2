@@ -135,10 +135,7 @@ If you’re trying to form a style to make levels, you have things backwards. Yo
 
 But overall, styles are arbitrary limitations. They’re just a visual thing which doesn’t have any bearing on your skill with the editor or your experience; at most they may affect your workflow, but that’ll be due to more fundamental things like detail usage anyways. You may see people reject useful advice because it wouldn’t fit their “style”, when it would unequivocally benefit their vision, which is a shame. Furthermore you may miss out on useful techniques in your levels just because you don't think it fits “your style”. Ultimately, you should experiment with techniques and try to learn as much as possible regardless of arbitrary classifications like style, which have no tangible bearing on your standing as a creator.
 
-
-## Return To The [Table of Contents](https://discord.com/channels/414295025883545600/1233710767895740456/1233710767895740456) here
-
-**Video:** https://youtu.be/3ofZI82lKQ8?si=a5bXL1ilq24c9C_N
+**Video:** [How To DECORATE in Geometry Dash!](https://youtu.be/3ofZI82lKQ8?si=a5bXL1ilq24c9C_N)
 
 
 

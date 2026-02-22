@@ -28,7 +28,7 @@ If you want your player to feel like their inputs are WORKING in your game, you�
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1wCsCU9JSutEoJEvGRiDxjAYUOUp5Oysk/preview?usp=drivesdk></iframe></div>
 
-This can be incredibly important depending on the game you’re making. For instance, if you want to make a precise platformer, you need your controls to be responsive to the point where the action happens *immediately* after the button is pressed. Input delay would make the game seem extremely unfair and annoying (which probably isn't fun). It isn’t a be all end all though, because unresponsive controls can feel more limiting which will need to new forms of gameplay as mentioned later on in the guide and also in [Mechanics 5](https://discord.com/channels/414295025883545600/1099913209319796748), as long as it feels intended and still fun to use.
+This can be incredibly important depending on the game you’re making. For instance, if you want to make a precise platformer, you need your controls to be responsive to the point where the action happens *immediately* after the button is pressed. Input delay would make the game seem extremely unfair and annoying (which probably isn't fun). It isn’t a be all end all though, because unresponsive controls can feel more limiting which will need to new forms of gameplay as mentioned later on in the guide and also in [Mechanics 5](/docs/guides/gameplay-2/mechanics-5-limitations-strategy/), as long as it feels intended and still fun to use.
 
 ## Consistency
 **Consistency** is __the accuracy of the same movement under repeated inputs__. If the player jumps, it should be to reach the same height no matter how many times it repeats. If a certain movement isn't consistent (meaning that it varies every time it's activated), it may seem like RNG for an input to happen correctly, since you’re pretty much at the game’s mercy of it working or not.
@@ -37,29 +37,29 @@ This can be incredibly important depending on the game you’re making. For inst
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1I-RfBmkkp8kv6X_L84J3iHyHwh-2CqnQ/preview?usp=drivesdk></iframe></div>
 
-This might seem easy to do, but it really depends on how your mechanics are made. Having a movement that’s heavily influenced by other subtle aspects can feel inconsistent, even though you still generally get the same movement, because small things like the timing and the direction you’re moving can change a lot. 
+This might seem easy to do, but it really depends on how your mechanics are made. Having a movement that’s heavily influenced by other subtle aspects can feel inconsistent, even though you still generally get the same movement, because small things like the timing and the direction you’re moving can change a lot.
 
 ## Level design
-Level design comes into play when you have a certain mechanic you want to use in the level. If you want your movement to seem like it's actually *useful* in your game, make sure the level requires them to use it when needed. If I have a dash mechanic, and nowhere in the level does it feel useful, why would I ever need it (if not to wave dash back and forth whenever I get bored ???) For every mechanic, there should be areas in the game where the player would find that “X mechanic works best here.” 
+Level design comes into play when you have a certain mechanic you want to use in the level. If you want your movement to seem like it's actually *useful* in your game, make sure the level requires them to use it when needed. If I have a dash mechanic, and nowhere in the level does it feel useful, why would I ever need it (if not to wave dash back and forth whenever I get bored ???) For every mechanic, there should be areas in the game where the player would find that “X mechanic works best here.”
 
-There are plenty more layers to level design, but that’s outside the scope of this guide, so instead I’ll link you to the [Level Design](<https://discord.com/channels/414295025883545600/1281782982868467733>) guide.
+There are plenty more layers to level design, but that’s outside the scope of this guide, so instead I’ll link you to the [Level Design](/docs/guides/gameplay-2/level-design/) guide.
 
 ## Player Feedback
-**Player feedback** is __the visual/audible response given to the player after executing a certain input__. Although not as important, you should 100% keep this in mind to make it more obvious that input was performed successfully, instead of observing just off of movement alone. This especially comes into play when you want the player to execute several actions consecutively, by letting them know what the input was and when it happens. This is covered more in [Mechanics 3](https://discord.com/channels/414295025883545600/1099913010962759680) as well.
+**Player feedback** is __the visual/audible response given to the player after executing a certain input__. Although not as important, you should 100% keep this in mind to make it more obvious that input was performed successfully, instead of observing just off of movement alone. This especially comes into play when you want the player to execute several actions consecutively, by letting them know what the input was and when it happens. This is covered more in [Mechanics 3](/docs/guides/gameplay-2/mechanics-3-feedback/) as well.
 
 -# *The movement feels much more substantial and satisfying after the visuals and sound effects.*
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/14pIqcMEaQ7dlxPZPdq_hcRqbvHBEVGjD/preview?usp=drivesdk></iframe></div>
 
 Here are also some more complex, but important ideas that should be thought about:
-    
-- Dynamism: **Dynamism** is pretty much __how dynamic (or fluid) the player’s movement is__. The player should be able to execute actions in a smooth manner that “flows nicely” with the main premise of the level. Adding this makes your game feel satisfying to go through and not feel so stiff. Without any type of dynamic movement, the movement can feel unpolished and annoying to use. 
+
+- Dynamism: **Dynamism** is pretty much __how dynamic (or fluid) the player’s movement is__. The player should be able to execute actions in a smooth manner that “flows nicely” with the main premise of the level. Adding this makes your game feel satisfying to go through and not feel so stiff. Without any type of dynamic movement, the movement can feel unpolished and annoying to use.
 
 For example, if I was to make a platformer that uses different abilities consecutively to move from one area to another, it should be dynamic to the point where it’s easy to execute this sequence of actions without feeling too clunky/rigid. Player feedback plays a big role in this too, because having something feel satisfying can make it flow better too.
 
 - Limitations/Freedoms: Limitations and Freedoms are 100% necessary for well-balanced movement, basically referring to what the player can (and can’t) do with their movement (i.e. I shouldn’t be able to skip whole parts of a level due to how broken a certain mechanic is). Limitations allow you to construct your main gameplay around a balanced movement system, allowing for some creativity when it comes to applying it to a game.
 
-It is also pretty important to balance the player’s freedom’s and limits in a game. There shouldn't be too many limits to the point where the player has no freedom in executing something (making the game seem like a chore), and there shouldn't be too many freedoms to the point where the player can do literally everything, making them overlook your intended way of playing the game. For more on this, see the [Limitations](<https://discord.com/channels/414295025883545600/1099913209319796748>) guide.
+It is also pretty important to balance the player’s freedom’s and limits in a game. There shouldn't be too many limits to the point where the player has no freedom in executing something (making the game seem like a chore), and there shouldn't be too many freedoms to the point where the player can do literally everything, making them overlook your intended way of playing the game. For more on this, see the [Limitations](/docs/guides/gameplay-2/mechanics-5-limitations-strategy/) guide.
 
 ** **
 

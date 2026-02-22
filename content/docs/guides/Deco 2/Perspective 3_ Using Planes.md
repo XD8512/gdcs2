@@ -17,7 +17,7 @@ At this point, you should be comfortable with basic perspective uses. However, o
 
 None
 
-For all of these operations, please refer back to the [Creating Decoration guide](<https://discord.com/channels/414295025883545600/1245491810470465536/1245491810470465536>) and use multiple editor layers to organize yourself and keep track of what you’re doing. Otherwise, this can get very messy. Additionally, if you’re struggling with executing the later techniques here, go back and practice on the earlier techniques more. This is crucial because they all build on top of each other.
+For all of these operations, please refer back to the [Creating Decoration guide](/docs/guides/deco-1/creating-decoration/) and use multiple editor layers to organize yourself and keep track of what you’re doing. Otherwise, this can get very messy. Additionally, if you’re struggling with executing the later techniques here, go back and practice on the earlier techniques more. This is crucial because they all build on top of each other.
 
 This guide will assume that you’re working with 2-point perspective, as it makes all of these operations much easier to learn.
 
@@ -135,7 +135,7 @@ This lets you mirror curves when they’re placed on tilted planes, just like th
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1CLBRCIXlTktpdw_UkK-4Kqh56-9AoRks/preview?usp=drivesdk></iframe></div>
 
 ## Mirroring 3D Curves
-A 3D curve/2-Curve is created by making a 2D curve with a horizontal plane, a second 2D curve with a vertical plane, and extending essential points of these curves outwards until they intersect. You can then create a new curve this way, which is useful for very complex forms like those you’ll see in [Perspective 5](<https://discord.com/channels/414295025883545600/1245810131267227769/1245810131267227769>).
+A 3D curve/2-Curve is created by making a 2D curve with a horizontal plane, a second 2D curve with a vertical plane, and extending essential points of these curves outwards until they intersect. You can then create a new curve this way, which is useful for very complex forms like those you’ll see in [Perspective 5]().
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1GLYsIFB8NHrIh1gu9eoX2YpWrEGCOixa/preview?usp=drivesdk></iframe></div>
 

@@ -33,7 +33,7 @@ Additionally, the **Editor Disable** checkbox __disables spawn triggers when you
 
 None
 
-Spawn triggers activate triggers instantly from left to right. This is a feature known as Spawn Order, and it’ll be discussed more in a [later guide](<https://discord.com/channels/414295025883545600/1085288651103150150/1085288651103150150>). Do not confuse this with “Spawn Ordered”.
+Spawn triggers activate triggers instantly from left to right. This is a feature known as Spawn Order, and it’ll be discussed more in a [later guide](/docs/guides/triggers-2/spawn-order/). Do not confuse this with “Spawn Ordered”.
 
 None
 
@@ -43,7 +43,7 @@ The **Spawn Ordered** checkbox __lets you spawn triggers in order from left to r
 
 # 3: Spawn Remapping
 
-Spawn remapping is a new 2.2 feature which is incredibly useful; it lets you copy spawn trigger setups from one group to another. 
+Spawn remapping is a new 2.2 feature which is incredibly useful; it lets you copy spawn trigger setups from one group to another.
 
 In 2.1 you would have to copy over the entire trigger setup and regroup everything, and now you can do this all with one spawn trigger.
 
@@ -59,7 +59,7 @@ First you need to define which group will be remapped to another one.
 
 Next you need to configure the spawn trigger setup.
 
-4. Place a spawn trigger and set it to spawn the group of the *original trigger setup*. In my case that’s Group 2. 
+4. Place a spawn trigger and set it to spawn the group of the *original trigger setup*. In my case that’s Group 2.
 5. Head to the second page. In the “Origin Group ID” box, input the group you identified in Step 2. In “New Group ID”, input your group from Step 3. For me, these are Groups 1 and 3.
 6. Once you're done click the green + button to add the remap. And that’s it!
 

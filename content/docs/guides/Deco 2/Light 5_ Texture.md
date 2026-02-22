@@ -33,14 +33,14 @@ For instance, take this digital painting by [Philipp Urlich](<https://urlich.art
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1KwYFa37UYP4fFeGGcjBjuw6_NfgFhWaj/preview?usp=drivesdk></iframe></div>
 
 ## Texture Density
-Implied texture also relates to **texture density**, or __how intricate a texture is__. People don’t just simplify textures to save time, but because that effort could be completely wasted. If you try to make extremely small and dense textures, they’ll often just turn an object into a noisy, indistinguishable mess rather than adding to it in a positive way. 
+Implied texture also relates to **texture density**, or __how intricate a texture is__. People don’t just simplify textures to save time, but because that effort could be completely wasted. If you try to make extremely small and dense textures, they’ll often just turn an object into a noisy, indistinguishable mess rather than adding to it in a positive way.
 
 Texture is one of those things where it's a good idea to build up from a point of simplicity and not to go overboard with it. You can start by trying to find large shapes with major value changes and then start to get more detailed as you develop the textures further.
 
 ## Focus
 But which objects should you give more texture than others? Well besides objects that are closer to the camera, you should give texture to objects that you want to emphasize more. Textures are another way to create contrast, just like shapes and colors, so a more textured object will stand out more than a less textured one assuming everything else about those objects are the same.
 
-Generally the more detailed a texture is, the wider the value range and the more attention that object will demand. This links back to [Depth of Field](https://discord.com/channels/414295025883545600/1104656677678104650/1351282666166685726) and [Atmospheric Perspective](https://discord.com/channels/414295025883545600/1104656677678104650/1351282705790275784), since they’re both ways to control the viewer’s focus and make certain details less prominent.
+Generally the more detailed a texture is, the wider the value range and the more attention that object will demand. This links back to [Depth of Field](/docs/guides/deco-2/light-5-texture/) and [Atmospheric Perspective](/docs/guides/deco-2/light-5-texture/), since they’re both ways to control the viewer’s focus and make certain details less prominent.
 
 # 2: Rendering Specific Materials
 

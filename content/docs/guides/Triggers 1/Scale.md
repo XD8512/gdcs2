@@ -55,9 +55,5 @@ Before 2.2, scaling was achieved by using plenty of groups and follow triggers, 
 
 
 
-## Return to the [Table of Contents](https://discord.com/channels/414295025883545600/1194068611409661983/1194068611409661983) here
-
-
-
 ## Credits
 Created by @EYZ and @Selena

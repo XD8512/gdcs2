@@ -18,7 +18,7 @@ In mathematics, a **vector** is defined by __a length and a direction__, but can
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1T-PU-6CZwtPHR-NAxG9KBnAFt3N7R-YP/preview?usp=drivesdk></iframe></div>
 
-Vectors are also useful as they are the foundation of physics and graphic engines. Knowing how to do vector calculus In Geometry Dash will help if you plan on making one or both of these engines, and more. When it comes to graphics engines, making shapes just requires a [gradient](<https://discord.com/channels/414295025883545600/1194067331836551278/1194067331836551278>) trigger and 3-4 points.
+Vectors are also useful as they are the foundation of physics and graphic engines. Knowing how to do vector calculus In Geometry Dash will help if you plan on making one or both of these engines, and more. When it comes to graphics engines, making shapes just requires a [gradient](/docs/guides/triggers-1/gradient/) trigger and 3-4 points.
 
 You can represent points in Geometry Dash with a single object. For simplicity, we will label points with a single letter. As an example, we will use A for the output point.
 
@@ -42,7 +42,7 @@ Now that you can follow a vector A, stacking follow triggers lets you follow all
 
 ## Following Midpoints of Segments
 
-Adding multiple vectors also lets you place a point at the midpoint of two other points, by getting the average value of their positions. 
+Adding multiple vectors also lets you place a point at the midpoint of two other points, by getting the average value of their positions.
 
 1. We can refer to the midpoint as point I, placing an object in the middle of A and B.
 - Place a follow trigger that makes point I follow point A with X and Y mods of 0.5.
@@ -118,7 +118,7 @@ You may notice that these setups require all points to be in the same spot to fu
 None
 
 ### Keep Follow Triggers from picking up Movement
-    
+
 You’ll also notice that when you don’t want the setup to operate for a set time, the points within the frame will move regardless. If you activate the Silent option inside a move trigger, other triggers won't see that movement. This is useful if you want to instantly move certain points without worrying about follow triggers.
 
 <div><iframe src=https://drive.google.com/file/d/1jbKyVtyqFiz118HS-0tjNRXHhkVuOxPB/preview?usp=drivesdk></iframe></div>

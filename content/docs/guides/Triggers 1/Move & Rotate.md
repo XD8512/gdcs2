@@ -36,7 +36,7 @@ The “Lock to Player X” and “Lock to Player Y” checkboxes copy the player
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1ezTR5yTmITNbhcPtb13EqbPcjUI4FpR2/preview?usp=drivesdk></iframe></div>
 
-Enabling **Dynamic Mode** on either Target or Direction Mode will constantly update the positions of your TargetPos Group ID. This [target tracking](<https://discord.com/channels/414295025883545600/1157751217456435260/1157751933340242022>) lets you automatically make changes in real time.
+Enabling **Dynamic Mode** on either Target or Direction Mode will constantly update the positions of your TargetPos Group ID. This target tracking lets you automatically make changes in real time.
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1B0smjmwGudlZ9908P-R3cPYkEtDA60fb/preview?usp=drivesdk></iframe></div>
 

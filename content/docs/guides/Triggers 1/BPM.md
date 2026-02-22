@@ -26,7 +26,7 @@ Place down the :BPMTrigger: BPM Trigger l and then go to :EditObject: Edit Objec
 
 # 2: Finding Song BPM
 
-Finding your song's BPM can be the trickiest part of using this trigger, but there are tools you can use to speed up the process. In this example I'll use "Goa Codex" by Waterflame as the song; if you haven't already done so, you should [choose a song](https://discord.com/channels/414295025883545600/1083170138695667893/1083170138695667893) for your level before starting this.
+Finding your song's BPM can be the trickiest part of using this trigger, but there are tools you can use to speed up the process. In this example I'll use "Goa Codex" by Waterflame as the song; if you haven't already done so, you should [choose a song](/docs/guides/the-editor/choosing-a-song/) for your level before starting this.
 
 Once you've found your song, you'll need to download a .mp3 of it. On Newgrounds, you can do this through the Download button here.
 
@@ -42,7 +42,7 @@ Drag your .mp3 file into the right area and the site will determine the BPM for 
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1swVkjR06_ldJJi8laT5Kkh9qiDzJsaXR/preview?usp=drivesdk></iframe></div>
 
-In my case the song's BPM is 146, so I configure the BPM trigger accordingly and can see the results inside the editor. The yellow lines aren't as random as the Guideline Creator, which is very useful for making [sync](https://discord.com/channels/414295025883545600/1086726237440966707/1086726237440966707) for the level.
+In my case the song's BPM is 146, so I configure the BPM trigger accordingly and can see the results inside the editor. The yellow lines aren't as random as the Guideline Creator, which is very useful for [making sync](/docs/guides/gameplay-1/making-sync/) for the level.
 
 <div><iframe src=https://drive.google.com/file/d/1p4Oxiym-f4_mUWFPzUJify84gfJH2HU8/preview?usp=drivesdk></iframe></div>
 

@@ -88,7 +88,7 @@ Here is an example from Galofuf's part in Carcass, where you can see various cha
 
 None
 
-[Animated Objects](<https://discord.com/channels/414295025883545600/1189378539875741726/1189378539875741726>) also work well as details. Since you can pause each individual frame of them, you can effectively get multiple shapes out of one specific object.
+[Animated Objects](/docs/guides/deco-1/animated-objects/) also work well as details. Since you can pause each individual frame of them, you can effectively get multiple shapes out of one specific object.
 
 None
 

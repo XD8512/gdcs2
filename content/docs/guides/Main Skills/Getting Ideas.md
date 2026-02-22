@@ -37,7 +37,7 @@ The main goal of this lesson is to convert as many **intangible** ideas (imagina
 Surprisingly, there are a variety of ways to produce ideas, and they can range in difficulty. For this lesson about a jumping square game, we will only cover four methods. Have a go at each if you haven't used or heard of them before!
 ## Concentration
 
-Let's start with the most common way: thinking until an idea pops into your head. In writing, people joke that "ideas are made by looking at a piece of paper until a nerve forms in your head", the same way a nerve forms in my head when outlining this lesson. 
+Let's start with the most common way: thinking until an idea pops into your head. In writing, people joke that "ideas are made by looking at a piece of paper until a nerve forms in your head", the same way a nerve forms in my head when outlining this lesson.
 -# (The same way a nerve forms in my head when proofreading this lesson :D)
 
 - **Pros:** No training is required. Stare at the blank blue editor, and then an idea appears.
@@ -72,7 +72,7 @@ This method is the most associated with *divergent thinking*, and probably one o
 
 *Put To Another Use* - How else can you use existing mechanics?
 
-*Eliminate* - What elements can you remove from the level? How will it work then? 
+*Eliminate* - What elements can you remove from the level? How will it work then?
 
 *Rearrange* - What if you take what everyone else has done, and did the opposite?
 
@@ -108,9 +108,8 @@ As long as someone can think and imagine, they have ideas, which constitutes mos
 - [Harvard Business Review: Better Brainstorming](<https://hbr.org/2018/03/better-brainstorming>)
 - [Conceptboard: The SCAMPER technique for brainstorming and creativity](<https://conceptboard.com/blog/scamper-technique-template/>)
 - [Lifehacker: Why Your Memory Sucks, and What You Can Do About It](<https://lifehacker.com/why-your-memory-sucks-and-what-you-can-do-about-it-596782066>)
-## Return to the [Table of Contents](https://discord.com/channels/414295025883545600/1083453897848393799/1083453897848393799) here
 
-**Video:** https://youtu.be/s8DIK6qT8TM
+**Video:** [How To Make UNIQUE LEVELS in Geometry Dash](https://youtu.be/s8DIK6qT8TM)
 
 
 

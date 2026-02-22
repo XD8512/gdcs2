@@ -16,7 +16,7 @@ Medium: 10-12 minutes
 
 # 1: Group IDs
 
-Let’s start with the most common and versatile ID in the editor: **group IDs**. As noted in the [Groups](<https://discord.com/channels/414295025883545600/1198062001499418704/1198062001499418704>) guide, these are commonly used so your triggers can target a specific set of objects.
+Let’s start with the most common and versatile ID in the editor: **group IDs**. As noted in the [Groups](/docs/guides/triggers-1/groups/) guide, these are commonly used so your triggers can target a specific set of objects.
 
 As of Update 2.2, the maximum group IDs that you can use is 9999, up from 999 in Update 2.1.
 
@@ -59,14 +59,14 @@ Force IDs are only used in force blocks. Blocks with the same force ID will not 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1h2SNzHgUx9CnJUYLl0qiiRO4NHHTtJ9L/preview?usp=drivesdk></iframe></div>
 
 ## Song Channel IDs
-These IDs allow you to add multiple songs in the same level. Depending on how you set up the [Song or Edit Song trigger](<https://discord.com/channels/414295025883545600/1193403796466970756/1193403796466970756>), the songs can be switched or played simultaneously.
+These IDs allow you to add multiple songs in the same level. Depending on how you set up the [Song or Edit Song trigger](/docs/guides/triggers-1/song-edit-song/), the songs can be switched or played simultaneously.
 
 ## Animation IDs
 
-Animation IDs give monsters different expressions in the animate trigger. If you want the bat monster to sleep, for example, you would simply type the animation ID which corresponds with the bat’s sleeping animation. The [Animation Trigger](https://discord.com/channels/414295025883545600/1193409360433528862/1193409360433528862) guide details the many possible expressions that you can give.
+Animation IDs give monsters different expressions in the animate trigger. If you want the bat monster to sleep, for example, you would simply type the animation ID which corresponds with the bat’s sleeping animation. The [Animate Trigger](/docs/guides/triggers-1/animate/) guide details the many possible expressions that you can give.
 
 ## Material IDs
-Material IDs make [Event Link Triggers](https://discord.com/channels/414295025883545600/1197974393133994105/1197974393133994105) activate when you interact with objects of the specified material ID.
+Material IDs make [Event Link Triggers](/docs/guides/triggers-1/event-link/) activate when you interact with objects of the specified material ID.
 
 You may assign a Material ID in the “Extra ID” box of the trigger.
 
@@ -136,9 +136,9 @@ Another crucial note about EffectIDs is that Area and Enter triggers can share t
 BlockIDs are assigned to collision blocks, which are used by the Collision and Instant Collision triggers. You’ll need at least one BlockID to set up these triggers – usually two, but you can also use the player’s hitbox as well. When using a trigger with two BlockIDs, one of them needs to have “Dynamic Block” enabled.
 
 ## Unique IDs / SFX Group IDs
-UniqueIDs and SFXGroupIDs are used for the [SFX and Edit SFX triggers](<https://discord.com/channels/414295025883545600/1193404135932952576/1193404135932952576>). Just like EffectIDs, they let you edit existing SFX triggers by specifying an ID to modify. The difference between them is that multiple SFX triggers can share a SFX Group, but only one trigger within a SFX Group can have a Unique ID.
+UniqueIDs and SFXGroupIDs are used for the [SFX and Edit SFX triggers](/docs/guides/triggers-1/sfx-edit-sfx/). Just like EffectIDs, they let you edit existing SFX triggers by specifying an ID to modify. The difference between them is that multiple SFX triggers can share a SFX Group, but only one trigger within a SFX Group can have a Unique ID.
 
-When combined with a one object group, you can adjust the sound’s [proximity](<https://discord.com/channels/414295025883545600/1193404135932952576/1193608979746652272>), where the noise changes depending on the player’s distance.
+When combined with a one object group, you can adjust the sound’s proximity, where the noise changes depending on the player’s distance.
 
 ## Gradient IDs
 
@@ -168,9 +168,9 @@ Arguably, Item IDs have the most use cases because the triggers they connect wit
 Timer IDs are another type of Item ID used for the Time, Time Event, and Time Control triggers. Their main feature is that they can take decimals up to the hundredths place, while Item IDs can only take whole numbers.
 
 ## Trigger Channels
-Trigger Channels act like a separate limiter on objects. When you’re playing through a level normally, the only triggers that will activate normally are ones which have the active Trigger Channel. This is explained further in the [Using Channels](https://discord.com/channels/414295025883545600/1189381935412285450/1196604682538328084) guide.
+Trigger Channels act like a separate limiter on objects. When you’re playing through a level normally, the only triggers that will activate normally are ones which have the active Trigger Channel. This is explained further in the [Using Channels](/docs/guides/the-editor/using-channels/) guide.
 
-You can change trigger channels using the [Arrow Trigger](https://discord.com/channels/414295025883545600/1197970940882067466/1204522176460488724).
+You can change trigger channels using the [Arrow Trigger](/docs/guides/triggers-1/reverse-arrow/).
 
 ## Group IDs (again)
 To come full circle, let’s revisit group IDs once more. Because of how versatile they are; this makes them the simplest and the most complex ID at the same time. Not only are they necessary for many of the triggers used in this game, but they also come with many different labels:

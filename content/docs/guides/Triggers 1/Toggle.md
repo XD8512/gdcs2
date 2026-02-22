@@ -18,9 +18,6 @@ The toggle trigger uses groups to toggle objects on and off. Static objects – 
 <div><iframe src=https://drive.google.com/file/d/1eo2x43Dv5VhYAjmrl9IpiYwNFAOb3MlB/preview?usp=drivesdk></iframe></div>
 
 
-## Return to the [Table of Contents](https://discord.com/channels/414295025883545600/1194065563937423380/1194065563937423380) Here
-
-
 
 ## Credits
 Created by @koma5

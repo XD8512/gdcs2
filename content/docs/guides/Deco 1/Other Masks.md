@@ -7,7 +7,7 @@ draft: false
 
 # 1: Saturation Cancel Mask
 
-When two complementary colors are layered, their saturation completely cancels out, resulting in a monochromatic gray. For example, red `(255, 0, 0)` and cyan `(0, 255, 255)` combine to make white, a fully unsaturated color. 
+When two complementary colors are layered, their saturation completely cancels out, resulting in a monochromatic gray. For example, red `(255, 0, 0)` and cyan `(0, 255, 255)` combine to make white, a fully unsaturated color.
 
 In order to make two objects with complementary colors, set them to the same color channel, then adjust the HSV of the second object by `±180`. This method guarantees that the colors are completely opposite, rather than using the more imprecise color selector.
 
@@ -33,7 +33,7 @@ Here's an example of how this looks in action.
 
 This mask can make colors look a bit pale, so make sure your background colors and details compensate for that.
 
-## Pros: 
+## Pros:
 - Insane range of colors
 - Very versatile, can allow for multiple masks
 - Widely increasing in popularity
@@ -58,7 +58,7 @@ This mask can make colors look a bit pale, so make sure your background colors a
 
 # 2: Color Pair Mask (Blending)
 
-This masking technique is similar to the normal [color pair mask](<https://discord.com/channels/414295025883545600/1104661433670717510/1162528888660951183>), however it uses the addition of blending colors to perform its goal. To do this, it sandwiches a gray block between a layer of non-blending colors and another of blending colors.
+This masking technique is similar to the normal [color pair mask](/docs/guides/deco-1/layering-masks/), however it uses the addition of blending colors to perform its goal. To do this, it sandwiches a gray block between a layer of non-blending colors and another of blending colors.
 
 ## Setup
 1. Choose a primary color and a secondary color. White is the easiest secondary color to work with due to its useful properties regarding blending.
@@ -70,7 +70,7 @@ This masking technique is similar to the normal [color pair mask](<https://disco
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/14NEzFrJyFvtzvO5bqd9-eklhn4YaL7Rq/preview?usp=drivesdk></iframe></div>
 
-4. Overlay the layers. Place a gray block in between these two layers, and if done correctly, both colors will show on the block. Tweak the colors if the background color does not match with the mask color, using the HSV slider. 
+4. Overlay the layers. Place a gray block in between these two layers, and if done correctly, both colors will show on the block. Tweak the colors if the background color does not match with the mask color, using the HSV slider.
 - _This is not an exact science._ If using a secondary color that isn’t white, the colors will not match 100% correctly. However, given the mask color and base color only connect at corners, it is very difficult to notice.
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1MLZsyVJap0asOncMkLNONOqH9dtV0ZdF/preview?usp=drivesdk></iframe></div>
@@ -112,7 +112,7 @@ Note that the colors are slightly off, as previously stated.
 
 # 3: Color Pair Mask (Lightened)
 
-This masking method is similar to the [color pair mask](<https://discord.com/channels/414295025883545600/1104661433670717510/1162528888660951183>), but instead of darkening overlapping blocks, the end result becomes lighter.
+This masking method is similar to the [color pair mask](/docs/guides/deco-1/layering-masks/), but instead of darkening overlapping blocks, the end result becomes lighter.
 
 Once again, it uses multiple layers to do this.
 
@@ -156,8 +156,6 @@ You can add color to the effect, by overlaying gradients and low opacity colors.
 ## Summary
 
 - This guide explains some miscellaneous masks, which we didn't cover in the prior guides.
-
-## Return To The [Table of Contents](https://discord.com/channels/414295025883545600/1104661664676196473/1104661664676196473) Here
 
 
 

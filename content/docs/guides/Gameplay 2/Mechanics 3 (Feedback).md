@@ -39,7 +39,7 @@ Before you start crafting the feeling of your mechanic, let’s settle some base
 
 Whether your mechanics are simple or complex, players should CLEARLY know that they’ve interacted with your mechanic. Design your feedback the same way you would teach someone: would you mislead them? Would you make them have zero clue on what they’re doing?
 
-Gameplay is rarely fun if the mechanics are obscure or inconsistent, so you should make sure players know what they’re doing. There can be exceptions to this depending on the level’s idea. 
+Gameplay is rarely fun if the mechanics are obscure or inconsistent, so you should make sure players know what they’re doing. There can be exceptions to this depending on the level’s idea.
 
 Let’s take a look at the earlier example. Because players can freely rotate the dash, a moving arrow is placed to show its direction, followed by a small trail to emphasize the player’s path. The player can use the dash to break fragile walls in the actual level; the “shield” in front of the icon further conveys the dash’s strength. All of these little details teach the player about what the mechanic does visually.
 
@@ -65,7 +65,7 @@ Obviously, not every fast or slow mechanic follows these, but it’s still a fir
 
 Feedback conveys information, and you can manipulate this information to guide the player. Visual feedback tells what a mechanic does, but you can bend how the mechanic works with other mechanics to reward and punish the player. For example, imagine an enemy swinging a giant hammer. Getting hit by the hammer will deal heavy damage to you, telling you to *watch out and dodge* the swing next time. If the enemy misses the swing, they topple over and need to recover, giving you time to attack the enemy, which once again reinforces you to *dodge the attack and punish*. If the hammer didn’t do enough damage or didn’t give the player enough time to attack, the intended purpose of the hammer swing wouldn’t work. Having an obvious “right” or “wrong” at the very beginning of a level will help reinforce the general approach to an obstacle for the rest of the game too; in our example above, players will know what to do and how to dodge for the rest of the game.
 
-Of course, a lack of information may be useful at times too. Not giving a clear “right” or “wrong” outcome will leave the player to do what they want and *figure out what to do themselves*. This creates puzzles and strategy; you need to think about how you’re going to approach an obstacle on your own. Strategy will be further covered in [Mechanics 5](<https://discord.com/channels/414295025883545600/1099913209319796748/1099913209319796748>). For example, Minecraft has a unique system called redstone, which you use to make various contraptions in the game such as farms, doors, computers, flying machines, etc. When a piece of redstone dust - the most basic component - activates, it lights up, which acts as basic visual feedback.
+Of course, a lack of information may be useful at times too. Not giving a clear “right” or “wrong” outcome will leave the player to do what they want and *figure out what to do themselves*. This creates puzzles and strategy; you need to think about how you’re going to approach an obstacle on your own. Strategy will be further covered in [Mechanics 5](/docs/guides/gameplay-2/mechanics-5-limitations-strategy/). For example, Minecraft has a unique system called redstone, which you use to make various contraptions in the game such as farms, doors, computers, flying machines, etc. When a piece of redstone dust - the most basic component - activates, it lights up, which acts as basic visual feedback.
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1HCAAfjOY30R6H7OSxx8T_wiY_NEIQGkA/preview?usp=drivesdk></iframe></div>
 
@@ -73,7 +73,7 @@ Running dust into the side of a repeater, a different type of redstone component
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1Y8jCwgxcEgvGl5hd377ypAqYMWFJ9MdN/preview?usp=drivesdk></iframe></div>
 
-Minecraft uses feedback to teach basic things like that, but it’s different on larger scale contraptions like a redstone door. When something goes wrong, the player has no idea where and has to go through their contraption to find the error, making them rethink their logic and promoting more strategy (apart from the logic to make the contraption in the first place). 
+Minecraft uses feedback to teach basic things like that, but it’s different on larger scale contraptions like a redstone door. When something goes wrong, the player has no idea where and has to go through their contraption to find the error, making them rethink their logic and promoting more strategy (apart from the logic to make the contraption in the first place).
 
 While on the subject of Minecraft, let’s cover a sneaky feedback mistake that you have to look out for. I mentioned how redstone dust can’t go into the sides of repeaters, reinforcing the idea that they only work from the front and back, but this isn’t always true. Running the front of a repeater into the side of another repeater can lock the second one, which is a unique mechanic that is really niche due to it contradicting the “assumptions” of redstone dust. When using feedback to teach a mechanic, make sure it aligns rather than contradicts with other mechanics.
 
@@ -83,7 +83,7 @@ While on the subject of Minecraft, let’s cover a sneaky feedback mistake that 
 
 The next application that we'll cover is feedback loops. A feedback loop is when your game/level provides information to the player, which will hook the player and make them respond, which will provide more information and the loop continues. This loop is designed to create engagement. You can see this everywhere:
 
-You message your friend → Your friend responds with their message → You respond to your friend’s message → Repeat 
+You message your friend → Your friend responds with their message → You respond to your friend’s message → Repeat
 
 As you hear the message notification or popup, this will make you want to text back as you wouldn’t want to leave your friend hanging (hopefully), and then your friend messages you back and the cycle continues.
 
@@ -95,7 +95,7 @@ When designing feedback loops, you need to decide on an action that the player w
 
 ## Know Your Game First
 
-Finally, keep in mind that different games require different types of feedback. Calmer adventure games such as Hollow Knight wouldn’t require a detailed UI that tells the player everything they need to know because it’s a streamlined single player experience. First person shooter games such as Fortnite on the other hand have much more information in their UI: health, ammunition, inventory, number of remaining players, location. Players need to know a lot more than their health to play optimally while having fun. In fighting games such as Super Smash Brothers Ultimate or Xenoblade Chronicles 2 where the players’ reflexes are tested, the exact speed of the character animations are crucial, making sure that the mechanic’s feedback is finely tuned to the gameplay. 
+Finally, keep in mind that different games require different types of feedback. Calmer adventure games such as Hollow Knight wouldn’t require a detailed UI that tells the player everything they need to know because it’s a streamlined single player experience. First person shooter games such as Fortnite on the other hand have much more information in their UI: health, ammunition, inventory, number of remaining players, location. Players need to know a lot more than their health to play optimally while having fun. In fighting games such as Super Smash Brothers Ultimate or Xenoblade Chronicles 2 where the players’ reflexes are tested, the exact speed of the character animations are crucial, making sure that the mechanic’s feedback is finely tuned to the gameplay.
 
 Another point to mention here is cutscenes. Single player games such as Ori would use them while removing player controls since the player isn’t supposed to die in these sequences, but implementing this exact system to competitive multiplayer games such as Fortnite? Taking away player controls becomes incredibly frustrating, creating this “animation lock”.
 

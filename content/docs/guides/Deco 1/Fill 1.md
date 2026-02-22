@@ -14,7 +14,7 @@ Short: 4-6 minutes
 
 # 1: Good Objects For Filling Shapes
 
-To start, we’ll go over how you can consolidate both making shapes and picking colors into one smooth step. This saves time as you don’t have to use lineart, unless it’s a stylistic choice or for a more complex structure. Similarly, it saves objects which’ll help your level run better. 
+To start, we’ll go over how you can consolidate both making shapes and picking colors into one smooth step. This saves time as you don’t have to use lineart, unless it’s a stylistic choice or for a more complex structure. Similarly, it saves objects which’ll help your level run better.
 
 The best way to do this is to use the objects in-game. As such, we’ll give some examples of objects that are great for a variety of uses.
 
@@ -36,7 +36,7 @@ Many of GD’s older assets – specifically the ones from before 1.9 – have r
 
 ## Circles and Curves
 
-If you’ve read the [previous guide](https://discord.com/channels/414295025883545600/1083171098016874528/1083922530424860793) this will be fairly self-explanatory. You can use objects like the ones below to make circles and curves; some will be more beneficial than the default lines too.
+If you’ve read the [previous guide](/docs/guides/deco-1/detail-objects/) this will be fairly self-explanatory. You can use objects like the ones below to make circles and curves; some will be more beneficial than the default lines too.
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/13Nu22c1D-UNjgId02R8ZVgr-crwGal6S/preview?usp=drivesdk></iframe></div>
 
@@ -68,7 +68,7 @@ You'll find these sorts of specific objects everywhere, especially in more art-b
 
 # 2: Filling Custom Shapes
 
-All of the methods above work with objects that have already been made for you. But what if you want to make a custom shape, or the detail you want doesn’t naturally exist in the game? If you find yourself in this situation, you can just create an outline for the shape and fill it in yourself. 
+All of the methods above work with objects that have already been made for you. But what if you want to make a custom shape, or the detail you want doesn’t naturally exist in the game? If you find yourself in this situation, you can just create an outline for the shape and fill it in yourself.
 
 Here's how to fill in a shape using pre-existing objects:
 
@@ -110,9 +110,6 @@ In this section, we’ll cover some important principles you should bear in mind
 - **Save smaller color changes and low-opacity objects for last.** This will help ensure that you don’t overload your blocks or make them messy.
 
 <div><iframe src=https://drive.google.com/file/d/1rp8eE0jnHGCJg5rJHZgzgEyN9DnG3CL1/preview?usp=drivesdk></iframe></div>
-
-
-## Return to the [Table of Contents](https://discord.com/channels/414295025883545600/1083171458768961606/1083171458768961606) Here
 
 
 

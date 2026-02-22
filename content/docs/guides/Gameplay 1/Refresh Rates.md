@@ -18,9 +18,9 @@ draft: false
 
 Geometry Dash runs on changing frames. Every new frame updates the player’s position and replaces the old one, giving the illusion of motion. The rate at which frames are loaded depends on the **refresh rate** of the monitor displaying the game.
 
-This is a value that shows how fast a display screen can renew images, usually expressed in *hertz* [Hz]. For instance, a 60Hz monitor displays 60 frames every second, and a 240Hz monitor displays 240 frames per second. 
+This is a value that shows how fast a display screen can renew images, usually expressed in *hertz* [Hz]. For instance, a 60Hz monitor displays 60 frames every second, and a 240Hz monitor displays 240 frames per second.
 
-GD physics generally affect how the player interacts with hitboxes in the level. Every interactable object, such as saws and outlined blocks, has a hitbox. When the player’s hitbox collides with these objects’ hitboxes, an event is triggered that changes what the player is currently doing. The game checks for these collisions every frame, and executes the event the same frame it detects the collision. 
+GD physics generally affect how the player interacts with hitboxes in the level. Every interactable object, such as saws and outlined blocks, has a hitbox. When the player’s hitbox collides with these objects’ hitboxes, an event is triggered that changes what the player is currently doing. The game checks for these collisions every frame, and executes the event the same frame it detects the collision.
 
 This video  shows an example of how this works. The important fact here is that since detection occurs every frame, changes to game physics also occur every frame. This means that the higher your framerate, the more control you'll get over your icons and the more accurate you can be.
 
@@ -28,9 +28,9 @@ This video  shows an example of how this works. The important fact here is that 
 
 **2: Changes in Gameplay**
 
-The two most noticeable differences between lower refresh rates and higher refresh rates are *input delay* and *response time* while playing. *Every input the player makes triggers an event in-game, the response time of which depends on the refresh rate*. A higher refresh rate allows for more accurate inputs and a lower response time, while a lower refresh rate limits accuracy and response time. 
+The two most noticeable differences between lower refresh rates and higher refresh rates are *input delay* and *response time* while playing. *Every input the player makes triggers an event in-game, the response time of which depends on the refresh rate*. A higher refresh rate allows for more accurate inputs and a lower response time, while a lower refresh rate limits accuracy and response time.
 
-Given that the game checks for collisions [every frame](<https://discord.com/channels/414295025883545600/1169120760514756608/1169120760514756608>), things like frame-perfect inputs will vary between refresh rates. Most of all, this greatly affects ship gameplay. With more accurate controls, ship gameplay becomes far easier to control and create difficult gameplay around, increasing the possibilities for creating gameplay.
+Given that the game checks for collisions [every frame](/docs/guides/gameplay-1/advanced-hitboxes/), things like frame-perfect inputs will vary between refresh rates. Most of all, this greatly affects ship gameplay. With more accurate controls, ship gameplay becomes far easier to control and create difficult gameplay around, increasing the possibilities for creating gameplay.
 
 A higher refresh rate makes it easier to straight fly, move around objects, and react to quick transitions . It’s no wonder why the most difficult levels in the game have increasingly difficult ship sections, seeing as the refresh rate standard in the community keeps increasing.
 

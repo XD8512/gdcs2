@@ -28,7 +28,7 @@ Each of these aspects is demonstrated by the first three sliders in the :RGB: co
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1YG742b1oRKnLXQm4XN-G0xLccbdYGQ07/preview?usp=drivesdk></iframe></div>
 
-It is common for artists to refer only to hue and saturation when talking about color, while value is considered separately. In similar fashion, this guide will only cover the aspects of color theory related to hue and saturation. If you need to learn about value, visit [Light 3](https://discord.com/channels/414295025883545600/1104656557574213742/1104656557574213742) instead.
+It is common for artists to refer only to hue and saturation when talking about color, while value is considered separately. In similar fashion, this guide will only cover the aspects of color theory related to hue and saturation. If you need to learn about value, visit [Light 3](/docs/guides/deco-2/light-3-value/) instead.
 
 # 2: The Color Wheel
 

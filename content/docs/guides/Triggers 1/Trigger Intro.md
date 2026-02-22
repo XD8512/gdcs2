@@ -48,9 +48,6 @@ Next, place down the trigger and set it up. Each trigger lets you choose what ob
 Finally, test if the trigger did what you want. Remember that some triggers don’t work without playtesting in the editor or in-game. You may need to adjust its options before getting a satisfying result.
 
 
-## Return to the [Table of Contents](https://discord.com/channels/414295025883545600/1198060115157319830/1198060115157319830) here
-
-
 
 ## Credits
 Created by @Unknown and @koma5

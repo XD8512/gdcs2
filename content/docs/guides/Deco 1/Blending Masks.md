@@ -148,7 +148,7 @@ Since they still have a full value of red, the red stars still look invisible on
 This mask is similar to the RGB Color mask, but it lets 3 different masks occur at once.
 
 ## Setup
-1. Start by making blocks of cyan, yellow, and magenta. You can use [this link](<https://discord.com/channels/414295025883545600/1104661567502549113/1162538491138277437>) if you need help making these colors.
+1. Start by making blocks of cyan, yellow, and magenta. You can use [this link](/docs/guides/deco-1/blending-masks/) if you need help making these colors.
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1sYqIXNJWfl675PUcyPWViDTDPU2MPOhU/preview?usp=drivesdk></iframe></div>
 
@@ -179,9 +179,7 @@ It's important the blending colors are semi-transparent, because if they were fu
 - The Blending feature in the editor allows you to combine the colors of objects by adding their RGB values together.
 - Masking is one of the many applications of this feature.
 
-## Return To The [Table of Contents](https://discord.com/channels/414295025883545600/1104661567502549113/1104661567502549113) Here
-
-**Video:** https://youtu.be/P2r4Z5kbx7M?si=OXRptoIaYPXfi597&t=1274
+**Video:** [Everything About Colors Explained in 28 Minutes (Geometry Dash)](https://youtu.be/P2r4Z5kbx7M?si=OXRptoIaYPXfi597&t=1274)
 
 
 

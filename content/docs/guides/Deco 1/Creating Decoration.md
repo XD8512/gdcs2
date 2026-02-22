@@ -101,7 +101,7 @@ Editor and Z layers are best seen in the actual editor, so I strongly recommend 
 
 ## Base & Detail Colors
 
-The final resource you must know how to organize is color channels. You should know how to use these from the [Using Channels](https://discord.com/channels/414295025883545600/1189381935412285450/1196604014545096744) guide, but I’ll also mention some common uses here.
+The final resource you must know how to organize is color channels. You should know how to use these from the [Using Channels](/docs/guides/the-editor/using-channels/) guide, but I’ll also mention some common uses here.
 
 Most people have some color channels they set aside for specific colors. For example, many people use either Color 1 or 2 for pure black. That aside, colors don’t have too much need for organization. I personally use color channels by scrolling through the list until I find a color that looks good enough for my needs; if I don’t find one, I’ll either use the HSV button or add a new color channel.
 
@@ -115,13 +115,13 @@ Here’s an image which has all the common elements of decoration in it.
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1c8u9pnQlu5KntIbLQbPwHhMOsYWguSHq/preview?usp=drivesdk></iframe></div>
 
-- Block Designs decorate structures and hazards related to a level’s gameplay. This is often the most time-consuming part of decoration, but you can make your own *assets* to copy-paste throughout your blocks and save time. They’re described in more detail [here](https://discord.com/channels/414295025883545600/1086730032740835463/1086730032740835463).
+- Block Designs decorate structures and hazards related to a level’s gameplay. This is often the most time-consuming part of decoration, but you can make your own *assets* to copy-paste throughout your blocks and save time. They’re described in more detail [here](/docs/guides/deco-1/making-blocks/).
 
-- Backgrounds decorate the space behind block designs, like the default backgrounds do. On the other hand, foregrounds decorate the space in front of blocks. These also are described in detail [here](https://discord.com/channels/414295025883545600/1086730133169262766/1086730133169262766).
+- Backgrounds decorate the space behind block designs, like the default backgrounds do. On the other hand, foregrounds decorate the space in front of blocks. These also are described in detail [here](/docs/guides/deco-1/making-backgrounds/).
 
-- Air Deco fills up spaces between blocks while existing on the same layer as them. However, you shouldn’t rely on this as much as it can get messy when overused. You can find info on this [here](https://discord.com/channels/414295025883545600/1086730190786400356/1086730190786400356).
+- Air Deco fills up spaces between blocks while existing on the same layer as them. However, you shouldn’t rely on this as much as it can get messy when overused. You can find info on this [here](/docs/guides/deco-1/making-air-deco/).
 
-- Animations change parts of decoration so they move, change shape, or change color. An example would be making a block move or using frame animation. The basics of this are described [here](https://discord.com/channels/414295025883545600/1137465881698521100/1137465881698521100).
+- Animations change parts of decoration so they move, change shape, or change color. An example would be making a block move or using frame animation. The basics of this are described [here](/docs/guides/deco-1/making-animations/).
 
 - Finally, Visual Effects use triggers, smart layering, and optical illusions to enhance your decoration and animations. For example, Masking is a common effect where one object is seamlessly hidden within another. The basics of this are described [here]().
 

@@ -16,9 +16,9 @@ Long: 24-28 minutes
 # 1: Truth Types
 
 Before we define what each logic gate does and show ways to implement them into GD, we must first understand how we can translate truth values into GD triggers. There are three **truth types** that you will have to manage.
-## Spawn truth type 
-This is the most universal truth type. In this case, __a truth value `A` is true if *group `A` is spawned* and conversely, is false if *nothing is spawned*__. This is the truth type that condition triggers use. Geometry Dash triggers are made in such a way that you can convert any truth type into a spawn truth and convert a spawn truth into any truth type (this will be discussed in a later chapter). 
-## Toggle Truth Type 
+## Spawn truth type
+This is the most universal truth type. In this case, __a truth value `A` is true if *group `A` is spawned* and conversely, is false if *nothing is spawned*__. This is the truth type that condition triggers use. Geometry Dash triggers are made in such a way that you can convert any truth type into a spawn truth and convert a spawn truth into any truth type (this will be discussed in a later chapter).
+## Toggle Truth Type
 In this truth type, __a truth value `A` is true if *group `A` is toggled on*, and is false if *it is toggled off*__. The toggle truth is the most simple way to store a truth value over time, as you only need to use a toggle trigger to activate or toggle off the triggers or objects you want, and also because it is more intuitive to check if an object is toggled on or off, compared to if a group is spawned or not.
 ## Item Truth Type
 You can represent TRUE and FALSE values as being a 1 or a 0 respectively. This allows you to use an Item ID to store truth values. This way, in an **item truth type**, __a truth value is true if *the number stored in the Item ID is 1* and is false if *it is 0*__. The 2.2 update offers some very interesting ways to interact with Item IDs, so this truth type can be useful for more advanced applications like binary calculus. Note that this method is less optimized since you are using a number to store something that is never bigger than 1, and also is not as useful for spawning sequences.
@@ -26,7 +26,7 @@ You can represent TRUE and FALSE values as being a 1 or a 0 respectively. This a
 # 2: AND Gate
 
 ## What is the AND Logic Gate?
-The **AND logic gate** receives two truth values, let's say value `A` and value `B`, __and outputs TRUE only if both `A` *and* `B` are TRUE__. So for instance, if you input a condition that is false and another condition that is true, the AND logic gate will output false. 
+The **AND logic gate** receives two truth values, let's say value `A` and value `B`, __and outputs TRUE only if both `A` *and* `B` are TRUE__. So for instance, if you input a condition that is false and another condition that is true, the AND logic gate will output false.
 In order to cover all the possible outputs a logic gate can yield given all the possible combinations of inputs it can receive, we can use a **truth table**. __A logic gate's truth table is a table where to the table's left are listed all the possibilities of inputs, whereas to the table’s right the corresponding output is stated__. Here is the truth table for the AND gate:
 
 None
@@ -36,7 +36,7 @@ If you replace the TRUE and FALSE values by binary 1s and 0s, you can notice tha
 None
 
 ## What is it Used for?
-The AND gate is usually used to activate something only if a set of conditions is valid. You can also use it as a literal gate: if `A` is TRUE, then let `B` through, but if `A` is FALSE, then block `B`. 
+The AND gate is usually used to activate something only if a set of conditions is valid. You can also use it as a literal gate: if `A` is TRUE, then let `B` through, but if `A` is FALSE, then block `B`.
 It is also used to define AND gates that use more than two inputs. This is done by chaining multiple AND gates. For example, if you want to define an AND gate that takes three inputs `A`, `B` and `C`, you would use two AND logic gates as follows: (`A` AND `B`) AND `C`. Here, all of the inputs must be TRUE so that the output is also TRUE.
 ## Ways to make it in GD
 There are a handful of ways you can implement an AND gate using GD triggers. For each setup, we will specify what truth type(s) the gate takes as input, what truth type the gate outputs, and how many inputs the setup can hold.
@@ -114,7 +114,7 @@ However, if more than one condition is true, you will get the output spawned sev
 
 To avoid getting several outputs, you can use Toggle triggers. This is the setup:
 1. Place a Toggle trigger that toggles off the output at the start of your gate.
-2. Place the condition triggers such that they activate after the Toggle trigger. (Check [spawn order](<https://discord.com/channels/414295025883545600/1230610140940730479>) for more details)
+2. Place the condition triggers such that they activate after the Toggle trigger. (Check [spawn order](/docs/guides/triggers-2/spawn-order/) for more details)
 3. Make each of those triggers spawn a Toggle trigger that toggles on the output.
 4. Place the output such that it executes after everything.
 Here is an example of the BG doing a pulse if Item ID 1 is 3 *or* Item ID 2 is 5.
@@ -155,16 +155,16 @@ The NOT gate is hard to make in Geometry Dash. Thankfully, most of the triggers 
 - Input type: Spawn truth
 - Output type: Toggle/spawn truth
 
-You can use toggles to make a NOT gate. The way you do this is by toggling off a trigger when the condition you are checking is true. Here is the setup: 
+You can use toggles to make a NOT gate. The way you do this is by toggling off a trigger when the condition you are checking is true. Here is the setup:
 1. Place your trigger with the condition of your choice.
 2. Make it activate a Toggle trigger that toggles off group `A`. Note that you can also use the toggle off option of the trigger if it is available.
-3. Place the output trigger of your choice and give it the group `A`. Make sure it executes after the condition trigger. (Check [spawn order](<https://discord.com/channels/414295025883545600/1230610140940730479>) for more details)
+3. Place the output trigger of your choice and give it the group `A`. Make sure it executes after the condition trigger. (Check [spawn order](/docs/guides/triggers-2/spawn-order/) for more details)
 4. If you want to use the gate several times, toggle on the output trigger right after the gate is activated.
 Here is an example on how to make the setup that will pulse the background if Item ID 1 is not 5.
 
 None
 
-Note that in this example, it is much smarter to use the toggle off feature of the Instant Count trigger or to use an Item Comp trigger. 
+Note that in this example, it is much smarter to use the toggle off feature of the Instant Count trigger or to use an Item Comp trigger.
 **Instant Count Setup**
 
 - Input type: Item truth
@@ -194,7 +194,7 @@ None
 
 Logic wise you can define the XOR logic gate in two equivalent ways :
 - `A` XOR `B` = (`A` AND NOT `B`) OR (`B` AND NOT `A`)
-- `A` XOR `B` = (`A` OR `B`) AND NOT(`A` AND `B`) 
+- `A` XOR `B` = (`A` OR `B`) AND NOT(`A` AND `B`)
 You can also see the XOR logic gate as a 2 input (or more) *T-flip flop*: anytime `A` or `B` changes, the output changes as well.
 ## What is it used for?
 The XOR gate is the least used gate. It is mostly used in computers to make a binary adder (we will see how this works in the examples section). You can also use the XOR gate like a toggleable NOT gate: if `A` is FALSE then let `B` through, but if `A` is TRUE then invert `B`. Also, when using many inputs, the XOR gate can tell if a sum of zeros or ones is even or odd.
@@ -206,7 +206,7 @@ The XOR gate is the least used gate. It is mostly used in computers to make a bi
 - Output type: Toggle/spawn truth
 - Several inputs
 
-[You can use a T-flip flop with a Sequence trigger](<https://discord.com/channels/414295025883545600/1190784002584477736>) and make your conditions activate the T-flip flop. In this example the block will be toggled on if Item ID 1 is 3 XOR Item ID 2 is 5:
+[You can use a T-flip flop with a Sequence trigger](/docs/guides/triggers-1/sequence/) and make your conditions activate the T-flip flop. In this example the block will be toggled on if Item ID 1 is 3 XOR Item ID 2 is 5:
 
 None
 
@@ -239,10 +239,10 @@ You can easily turn a XOR gate into a *XNOR* (also known as an equals gate) by o
 - Output type: Spawn truth
 - 2 inputs
 
-You can also make a XOR by combining an AND, an OR and a NOT gate. Remember that `A` XOR `B` = (`A` OR `B`) AND NOT(`A` AND `B`). 
+You can also make a XOR by combining an AND, an OR and a NOT gate. Remember that `A` XOR `B` = (`A` OR `B`) AND NOT(`A` AND `B`).
 
 This is the setup:
-1. Place your 2 condition triggers and make them both activate group `P`. This will make the OR gate. 
+1. Place your 2 condition triggers and make them both activate group `P`. This will make the OR gate.
 2. Place one of your condition triggers again such that it activates before the 2 others. Make it activate group `Q`.
 3. Place your second condition trigger again and give it group `Q`. This will be our AND gate.
 4. Make that trigger toggle off group `R`. This will be the NOT gate. Most triggers can toggle off a group by themselves but if it can't, make it activate a toggle trigger.
@@ -273,7 +273,7 @@ None
 
 # 6: Truth Type Conversion
 
-## Why Would You Convert Different Truth Types? 
+## Why Would You Convert Different Truth Types?
 There are several reasons for this: a specific truth type can be more convenient or optimized to the specific thing you are doing, and some truth types allow you to store the truth state while others don't. The different logic gates setups you have seen in this guide require you to use certain types of truth, but you can use truth type conversion to modify those setups to use the truth types you desire. We will see six ways to convert from one truth type to another one.
 
 ## How to Convert Different Truth Types
@@ -303,12 +303,12 @@ All of the gates (OR, AND and XOR) are **commutative**. Which means that __the o
 ## Associativity
 All of the gates are also **associative**. That means, __when two or more logic gates are combined, the order in which the operations are performed doesn't matter__.
 
-Taking the example of the AND gate: 
+Taking the example of the AND gate:
 - `A` AND (`B` AND `C`) = (`A` AND `B`) AND `C` = `A` AND `B` AND `C`
 Note that this way, the order in which you define a 3-input or more AND gate doesn’t matter.
 
 ## Distributivity
-The AND and OR logic gates are **distributive**. It means that: 
+The AND and OR logic gates are **distributive**. It means that:
 - `A` AND (`B` OR `C`) = (`A` AND `B`) OR (`A` AND `C`)
 - `A` OR (`B` AND `C`) = (`A` OR `B`) AND (`A` OR `C`)
 
@@ -326,15 +326,15 @@ You can also note that the XOR gate satisfies the following properties:
 
 # 8: Conditional and Biconditional Gates
 
-The *Conditional* and *Biconditional* logic gates are two gates that are used in mathematics to express relation between two truth values. 
-## Biconditional Logic Gate 
+The *Conditional* and *Biconditional* logic gates are two gates that are used in mathematics to express relation between two truth values.
+## Biconditional Logic Gate
 The **Biconditional gate**, also known as the equivalence gate or XNOR gate, __is a relation between two statements that will output TRUE if the two statements have the same truth value__. If statements `P` and `Q` are given to the biconditional gate and it yields TRUE, `P` and `Q` are said to be equivalent. You often write this relation as follows: `P`⇔`Q`.
 
 As an example, *x is divisible by 2* ⇔ *x is even*. But you can also say that *5² = 25* ⇔ *3×4=12*, or *3=4* ⇔ *the earth doesn't exist*, because in the first case both are true statements and in the second case both are false statements. Here is the biconditional gate truth table:
 
 None
 
-## Conditional Logic Gate 
+## Conditional Logic Gate
 The **Conditional gate**, also known as the *implication*, is another relation between two statements, let’s say `P` and `Q`. Logic wise, it is defined this way: `P` IMPLIES `Q` = NOT(`P`) OR `Q`. It means that __if `P` is true, then `Q` is also true, but not always the other way around__. As an example, most triggers execute an action `Q` if the condition `P` is true. But if the action `Q` has been executed, it doesn't mean that condition `P` is true. It is possible that another trigger with a condition different than `P` has done action `Q`. You often write the conditional relation `P` IMPLIES `Q` as `P` => `Q`. As usual, the truth table of the implication gate is as follows:
 
 None
@@ -351,17 +351,17 @@ None
 
 To end this guide, I will present to you some examples of combined gates in-game to illustrate the lesson.
 ## Example 1: NOR Gate
-Imagine you want to activate something when none of your conditions are valid. The OR is almost what you need since it gives FALSE only if all the conditions are false. If you put a NOT gate after the OR gate, you get a **NOR gate** (NOT OR), __which gives TRUE only when all the conditions are false__. However as you might have seen, the NOT gate is very impractical when it is not trigger integrated. Remembering De Morgan's law, we know that NOT (`A` OR `B`) = NOT(`A`) AND NOT(`B`). So if we use an AND gate, we can use the integrated NOT of our input triggers `A` and `B`. Let's say we want to make something appear only if one number is 3 *nor* another number is 4. We can make it like this: 
+Imagine you want to activate something when none of your conditions are valid. The OR is almost what you need since it gives FALSE only if all the conditions are false. If you put a NOT gate after the OR gate, you get a **NOR gate** (NOT OR), __which gives TRUE only when all the conditions are false__. However as you might have seen, the NOT gate is very impractical when it is not trigger integrated. Remembering De Morgan's law, we know that NOT (`A` OR `B`) = NOT(`A`) AND NOT(`B`). So if we use an AND gate, we can use the integrated NOT of our input triggers `A` and `B`. Let's say we want to make something appear only if one number is 3 *nor* another number is 4. We can make it like this:
 1. Place an Instant Count trigger that checks if the first number is 2. Keep the activate option off (that will be our first NOT gate).
 2. Repeat with another Instant Count trigger that will check if the second number is 4.
 3. Make both triggers toggle off the same group, that group will be our output.
 
 None
 
-## Example 2: Enemy Attack 
+## Example 2: Enemy Attack
 Now let's try something more complex, in which we have several input types. Imagine you want to make an enemy attack the player only under some very specific conditions. Say, the enemy attacks the player only if the player is in a certain area, its HP is above 10 *and* if it has no shield, *OR* if “bossfight mode” is activated. Logicwise, the underlying attack conditions would be defined like this: IF \[(*player in area* AND *player HP > 10* AND NOT *shield*) OR *bossfight mode*\], THEN *enemy attack*.
 
-Let's use GD stuff to represent our conditions: we can use a Collision State block to represent our area, an Item ID to store the player's HP, a Toggle trigger to know if the player has a shield (toggles on = has a shield, toggles off = has no shield) and finally let's say “bossfight mode” is activated with a spawn truth type. We also want our output to be a spawn truth type so we can spawn the system that attacks the player. 
+Let's use GD stuff to represent our conditions: we can use a Collision State block to represent our area, an Item ID to store the player's HP, a Toggle trigger to know if the player has a shield (toggles on = has a shield, toggles off = has no shield) and finally let's say “bossfight mode” is activated with a spawn truth type. We also want our output to be a spawn truth type so we can spawn the system that attacks the player.
 1. Let’s begin by making the AND gate. I started with the Collision State block since I can spawn the rest of the gate when the player enters the area.
 2. For the shield I needed to make a NOT gate. I used a Toggle trigger that toggles off group ID 4, which in turn is toggled on/off by the shield (group ID 1). Then I gave group ID 4 to the next element in the AND gate.
 3. The last element this AND gate needs is an Instant Count trigger. It checks that the player's HP is more than 10, and spawns the enemy attack if that is the case.

@@ -187,7 +187,7 @@ __Filters the screen to a grayscale color__.
 - **Target**: __How much the filter is applied__. Lower values mean less grayscale.
 - **FadeTime**: How long, in seconds, it takes to transition into the effect. Easing gives options on what easing the transition will use.
 - **Tint Channel**: Uses a color channel to tint the screen by instead of gray. The box next to the input must be checked in order to work.
-- **UseLum**: __Uses a different color conversion method for the grayscale filter__. Instead of simply desaturating the end image, it applies a “value” filter which is more accurate for [color theory](https://discord.com/channels/414295025883545600/1104656557574213742/1185375023276503090).
+- **UseLum**: __Uses a different color conversion method for the grayscale filter__. Instead of simply desaturating the end image, it applies a “value” filter which is more accurate for [color theory](/docs/guides/deco-2/light-3-value/).
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1Hqd1CVvEHWs-9OgqkccDVyL5xKAyya9K/preview?usp=drivesdk></iframe></div>
 

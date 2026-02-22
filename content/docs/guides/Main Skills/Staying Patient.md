@@ -43,11 +43,11 @@ LIke any other guide that deals with psychology and mentality, it's easier said 
 
 # 3: How to Stay Patient
 
-There are multiple ways to stay patient and calm. Some ways are a little more time-consuming than others, but their end result can make your view on your creations even better than they were before. A couple of these include: 
+There are multiple ways to stay patient and calm. Some ways are a little more time-consuming than others, but their end result can make your view on your creations even better than they were before. A couple of these include:
 
 1. **Visualizing your level.** This would help you to not rush into the creating process before you have a clear vision for how you're going to execute your level. You could then write down the ideas you have on paper as you would have more details to write down.
 
-2. **Being open to making adjustments.** This is a process that must go on as you create, with the goal being to trust the process and to not give up on your levels, just because they don’t instantly look good. 
+2. **Being open to making adjustments.** This is a process that must go on as you create, with the goal being to trust the process and to not give up on your levels, just because they don’t instantly look good.
 
 3. **Taking deep breaths.** When something frustrating happens, this can also help you stay patient. Try thinking of ways to change what you did just then, and what you could do differently to make that thing work as intended.
 
@@ -57,7 +57,7 @@ There are multiple ways to stay patient and calm. Some ways are a little more ti
 
 # 4: Balancing Patience and Wasting Time
 
-While patience is a virtue, there may be times when being too patient will waste your time. 
+While patience is a virtue, there may be times when being too patient will waste your time.
 
 For example, let's say that you are hosting a collab with 7 creators. As mentioned in the Communication Guide, you've laid out your vision document and set up the necessary channels to reach out to those creators with ease, precision, and timeliness. However, 2 of these creators rarely talked. Even though you've reached out to them to build their parts since Day 1, they have no progress to show for.
 
@@ -68,9 +68,6 @@ What would you do? Do you:
 - Immediately fire them and seek a new replacement?
 
 There's no clear-cut answer to this question as different situations and context encourage one answer over another. Also, depending on your leadership style, you will comfortably lean on one over another.
-
-
-## Return to the [Table of Contents](https://discord.com/channels/414295025883545600/1083454653125107722/1083454653125107722) here
 
 
 

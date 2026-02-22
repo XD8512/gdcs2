@@ -103,7 +103,7 @@ Most, if not all of these aspects apply to the entire layout, not just the predr
 
 ## Structuring and Effects (Optional)
 
-These are less important than base gameplay, and while base gameplay should be the focus, good structuring and effects are a good way to put a nice cherry on top for your layout, as long as you don’t overdo them. For more information, see the [Making Structures](<https://discord.com/channels/414295025883545600/1086726633710440518>) and [Making Effects](<https://discord.com/channels/414295025883545600/1282861235645321276>) guides.
+These are less important than base gameplay, and while base gameplay should be the focus, good structuring and effects are a good way to put a nice cherry on top for your layout, as long as you don’t overdo them. For more information, see the [Making Structures](/docs/guides/gameplay-1/making-structures/) and [Making Effects](/docs/guides/deco-1/making-effects/) guides.
 
 I also like to add some movements to my structures to give my layouts a little extra life.
 

@@ -19,7 +19,7 @@ This guide will explain the process behind creating custom mechanics for your ga
 
 # 1: Getting Ideas
 
-The first step of making a mechanic is to define your idea. If you haven’t read [Getting Ideas](<https://discord.com/channels/414295025883545600/1083453897848393799/1083453897848393799>), it should help with coming up with ideas for gameplay. All good mechanics follow general principles which makes them effective. Keep this in mind as you make ideas to better evaluate them after your brainstorming sessions.
+The first step of making a mechanic is to define your idea. If you haven’t read [Getting Ideas](/docs/guides/main-skills/getting-ideas/), it should help with coming up with ideas for gameplay. All good mechanics follow general principles which makes them effective. Keep this in mind as you make ideas to better evaluate them after your brainstorming sessions.
 
 - **Extensive:** Mechanics should affect game rules, as it will fundamentally change how the level plays. They should be extensive enough to make an actual impact. A change to the health bar, for example, does nothing if the player doesn’t take damage multiple times; depending on the implementation of healing, they will either want to conserve health, or go willy-nilly taking damage. Similarly, using a breath meter only works if the player encounters water.
 

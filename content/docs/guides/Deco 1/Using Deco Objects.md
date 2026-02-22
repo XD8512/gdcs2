@@ -170,10 +170,7 @@ Finally, note that you can use low opacity copies of objects to create blurred s
 
 <div><iframe src=https://drive.google.com/file/d/1Q2kOwjN0RCfjhbjJkz8X1DqDpXek78Ih/preview?usp=drivesdk></iframe></div>
 
-
-## Return To The [Table of Contents](https://discord.com/channels/414295025883545600/1233650406089949254/1233650406089949254) here
-
-**Video:** https://youtu.be/3ofZI82lKQ8?si=a5bXL1ilq24c9C_N
+**Video:** [How To DECORATE in Geometry Dash!](https://youtu.be/3ofZI82lKQ8?si=a5bXL1ilq24c9C_N)
 
 
 

@@ -48,9 +48,8 @@ This effect is created by using a lot of vertex triggers to make trapezoids. Mov
 The curves here are created by using the Area Move trigger to smoothly move the objects around.
 
 
-## Return to the [Table of Contents](https://discord.com/channels/414295025883545600/1194067331836551278/1194067331836551278) Here
 
-**Video:** https://youtu.be/jhP4Tt_OpA0?si=VUeBGlPy1806EiqA
+**Video:** [Geometry Dash 2.2’s OP Gradient Trigger! (Tutorial)](https://youtu.be/jhP4Tt_OpA0?si=VUeBGlPy1806EiqA)
 
 
 

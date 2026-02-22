@@ -48,9 +48,9 @@ However, since Stop triggers and Edit Advanced Follow cannot be remapped when st
 
 For stop triggers to know which instances they should affect, use ControlIDs instead of GroupIDs. Select the triggers you want to stop, then go to Edit Group -> Extra2 and choose a ControlID. Now enable “Use ControlID” in the stop trigger and type in the value in the “groupID” text box.
 
-Make sure for each new spawn trigger you also remap the ControlIDs used. Also note that ControlIDs can go up to 2^31 and aren’t limited by the 9999 ID limit. 
+Make sure for each new spawn trigger you also remap the ControlIDs used. Also note that ControlIDs can go up to 2^31 and aren’t limited by the 9999 ID limit.
 ## Exclusivity within Recursion
-Remap Recursion has another property which can lead to very undesirable outcomes. When remapping ID A to B with a spawn trigger, and using this trigger to activate another spawn trigger that remaps A to C, the game tries to create two different instances of the remap. Both remaps cannot be executed at the same time or the game will crash. 
+Remap Recursion has another property which can lead to very undesirable outcomes. When remapping ID A to B with a spawn trigger, and using this trigger to activate another spawn trigger that remaps A to C, the game tries to create two different instances of the remap. Both remaps cannot be executed at the same time or the game will crash.
 
 Reset Remap is a solution to this. It effectively resets any recursion in the spawn triggers, which overrides the first instance and prevents a crash. In this example, we’ll enable it for the second spawn trigger.
 
@@ -125,7 +125,7 @@ This setup can also use ItemIDs instead. When you want to pulse the selected blo
 
 4. To activate the wanted triggers, change the value of ItemID 1 with a Pickup trigger as shown in the video.
 ## Dynamic Groups
-Spawn remaps can also be used to make Dynamic Groups. This is a setup made by @koma5 that lets you choose a target group for a trigger based on an ItemID’s value. You can read more about it in the [Making Data Structures](<https://discord.com/channels/414295025883545600/1230626560260837517/1230626560260837517>) guide.
+Spawn remaps can also be used to make Dynamic Groups. This is a setup made by @koma5 that lets you choose a target group for a trigger based on an ItemID’s value. You can read more about it in the [Making Data Structures](https://docs.google.com/document/d/17OohiVbf_m8fiL_1_FSl0Yn5NjBrE7dBMNRALGljp54/edit?usp=sharing) guide.
 
 
 

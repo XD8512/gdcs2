@@ -79,11 +79,11 @@ You can even type in negative numbers to create opposite effects.
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1hddrBpJ5quHLlZNSwpmm3qU_qXuSL9xI/preview?usp=drivesdk></iframe></div>
 
-- Toggle Orbs activate a group ID. Depending on how you set this orb’s Edit Special, it can act as a Toggle trigger or Spawn trigger. The [Touch](<https://discord.com/channels/414295025883545600/1085287406867075175/1234963653049192539>) guide further explains their features.
+- Toggle Orbs activate a group ID. Depending on how you set this orb’s Edit Special, it can act as a Toggle trigger or Spawn trigger. The [Touch trigger](/docs/guides/triggers-1/touch/) guide further explains their features.
 
- - :2Point2: Teleport Orb: This orb’s UI customizes how the player can teleport throughout the level. This is especially useful for platformer levels. This UI is identical to the teleport trigger’s setup menu which is covered in [this guide.](<https://discord.com/channels/414295025883545600/1197973300748484770/1263990611569283085>)
+ - :2Point2: Teleport Orb: This orb’s UI customizes how the player can teleport throughout the level. This is especially useful for platformer levels. This UI is identical to the teleport trigger’s setup menu which is covered in [this guide.]()
 
-> Note: If you check the Edit Group’s Extra Menu, orbs and pads have the Reverse option, which is explained in the [Edit Objects](<https://discord.com/channels/414295025883545600/1083167284253687808/1211271679268102195>) guide.
+> Note: If you check the Edit Group’s Extra Menu, orbs and pads have the Reverse option, which is explained in the [Editing Objects](/docs/guides/the-editor/editing-objects/) guide.
 
 # 2: Portals
 
@@ -189,7 +189,7 @@ As of 2.2, there are six special blocks that affect how gamemodes function:
 - H blocks let the player touch the underside of blocks in the Cube/Robot/Spider gamemodes, where they usually get killed.
 - :2Point2: Force blocks push the player in a direction with a level of force. It comes with 2 shapes: square force blocks and circular force blocks.
 - :2Point2: F blocks let the player flip gravity by touching the underside of a block.
- 
+
 These special blocks are valuable for levels especially when it comes to bugfixing. For example, to prevent the cube from accidentally jumping after tapping a black orb, J blocks can be placed. Additionally, D blocks are amazing for giving the wave gamemode more room for error. As a result, these blocks are also excellent for making transitions, but that will be for a later lesson.
 
 However, they come with one problem: they’re invisible in-game. This makes them unintuitive for gameplay unless you add an object to mark their locations. This is why gravity portals were used in Fingerdash to indicate where S blocks were placed. But you can use other objects to mark these blocks and integrate them to your decoration.
