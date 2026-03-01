@@ -131,7 +131,7 @@ While this trigger focuses more on color correction, it is still effective as it
 - [Film Supply: Understanding the Basics of Cinematic Color Grading](<https://www.filmsupply.com/articles/cinematic-color-grading/>)
 - [London Image Institute: Color Psychology: How Do Colors Affect Mood & Emotions?](<https://londonimageinstitute.com/how-to-empower-yourself-with-color-psychology/>)
 
-**Video:** https://youtu.be/P2r4Z5kbx7M?si=do9Of4Aj0y9cZkz1&t=1116
+**Video:** <iframe width="560" height="315" src="https://www.youtube.com/embed/P2r4Z5kbx7M?si=RLe39Em16goCB5si&amp;start=1116" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 

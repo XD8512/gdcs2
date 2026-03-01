@@ -168,7 +168,7 @@ This is an example of what you don’t want your gamut maps to look like. There 
 
 Changed the channel name: Color 3: Color Schemes
 
-**Video:** https://youtu.be/P2r4Z5kbx7M?si=CkCcKoJSW36e0Ro_&t=404
+**Video:** <iframe width="560" height="315" src="https://www.youtube.com/embed/P2r4Z5kbx7M?si=XFnKKNIODbol8iRx&amp;start=404" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
