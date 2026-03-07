@@ -40,8 +40,8 @@
         {{ end -}}
         <div class="card-body">
           <article>
-            <h2 class="h3"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a></h2>
-            <p>{{ .Params.summary | safeHTML }}</p>
+            <h2 class="h3 mb-0"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ partial "main/title.html" .Params.title }}</a></h2>
+            <!--- <p>{{ .Params.summary | safeHTML }}</p> --->
             {{ partial "main/contributor-blog-meta.html" . -}}
           </article>
         </div>

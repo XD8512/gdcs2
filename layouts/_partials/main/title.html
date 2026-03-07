@@ -1,15 +1,13 @@
-<h1>
-  {{ $url := urlize .Title }}
-  {{ $fileKebab := printf "%s.png" (replace $url "/" "-") }}
-  {{ $filePascal := printf "%s.png" (replace .Title " " "") }}
+{{ $url := urlize . }}
+{{ $fileKebab := printf "%s.png" (replace $url "/" "-") }}
+{{ $filePascal := printf "%s.png" (replace . " " "") }}
 
-  {{ $icon := resources.GetMatch (printf "**/%s" $fileKebab) }}
-  {{ if not $icon }}
-    {{ $icon = resources.GetMatch (printf "**/%s" $filePascal) }}
-  {{ end }}
+{{ $icon := resources.GetMatch (printf "**/%s" $fileKebab) }}
+{{ if not $icon }}
+  {{ $icon = resources.GetMatch (printf "**/%s" $filePascal) }}
+{{ end }}
 
-  {{ with $icon }}
-    <img src="{{ .RelPermalink }}" class="headingemote">
-  {{ end }}
-  {{ .Title -}}
-</h1>
+{{ with $icon }}
+  <img src="{{ .RelPermalink }}" class="headingemote">
+{{ end }}
+{{ . -}}

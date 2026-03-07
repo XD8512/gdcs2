@@ -21,10 +21,16 @@ img.largeemote {
 
 img.headingemote {
     display: inline;
-    width: 4rem;
-    height: auto;
+    height: 4rem;
+    width: auto;
     margin: -0.2rem auto 0 auto;
     padding-bottom: 0.3rem;
+}
+
+h2 img.headingemote {
+    height: 3rem;
+    position: relative;
+    top: 0.07rem;
 }
 
 img {
