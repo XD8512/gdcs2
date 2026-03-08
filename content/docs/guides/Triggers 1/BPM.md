@@ -26,7 +26,7 @@ Place down the {{< img src="images/GDEmotes/Triggers/BPM.png" class="emote">}} B
 - **BPM** - the number of major beats per minute in your song. You can usually tell the song's BPM based on the percussion, but there are other means to determine it as you'll see later. Using this will add yellow guidelines at the appropriate time in your level.
 - **BPB** - the number of secondary beats in between each major beat. Setting this anything larger than 1 will add orange guidelines which are used to indicate the frequency of the secondary beats.
 - **Duration** - the number of seconds that the trigger will draw guidelines for.
-- **Speed** - lets you adjust the guidelines' position based on the player's speed. You can click on the button to change the speed, as with the {{< img src="images/GDEmotes/Triggers/StartPos.png" class="emote">}} trigger.
+- **Speed** - lets you adjust the guidelines' position based on the player's speed. You can click on the button to change the speed, as with the {{< img src="images/GDEmotes/Triggers/StartPos.png" class="largeemote">}} trigger.
 - **Disable** - lets you hide the guidelines as necessary.
 
 # 2: Finding Song BPM

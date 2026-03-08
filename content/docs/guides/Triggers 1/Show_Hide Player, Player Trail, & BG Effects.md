@@ -27,9 +27,9 @@ The Show Player trigger makes the player icon visible after it is hidden. This s
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1usKhqLlDQYqHZtEvsBJz8mis9q2KHQDr/preview?usp=drivesdk></iframe></div>
 
-# 2: :EnableEffect: :DisableEffect: Show/Hide Player Trail Triggers
+# 2: Show/Hide Player Trail Triggers
 
-The Show/Hide Player Trail triggers are the 22nd and 23rd triggers in the triggers page. Their appearance consists of an icon with a trail behind it with the words "disable" or "enable" above it.
+The {{< img src="images/GDEmotes/Triggers/EnableEffect.png" class="largeemote" >}} {{< img src="images/GDEmotes/Triggers/DisableEffect.png" class="largeemote" >}} Show/Hide Player Trail triggers are the 22nd and 23rd triggers in the triggers page. Their appearance consists of an icon with a trail behind it with the words "disable" or "enable" above it.
 
 The Show Player Trail trigger makes a trail of afterimages that follows the player. This trail cannot be seen in the editor and can only be viewed in normal gameplay.
 
