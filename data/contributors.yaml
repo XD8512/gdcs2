@@ -1,22 +1,7 @@
-<<<<<<< HEAD
 - ID: "767427137421443112"
   username: lagwerious
   displayname: Lagwerious
   userDisplay: true
-=======
-# HOW TO FILL A CONTRIBUTOR'S DATA
-
-# If you are adding a new contributor, please fill the following data:
-# ID: Contributor's discord user ID.
-# username: Contributor's discord username.
-# preferredName: The name the contributor may want to be recognized with.
-# usePreferred: Whether to use the username or preferred name on the website. If `true`, the preferred name will be used.
-
-# When the `npm run dev` command is executed, the `displayName` attribute will be calculated automatically according to
-# the information filled, and additional scripts for url safety.
-# This will be the final name displayed on the website, and it will be replaced on all guides.
-# You don't have to fill this attribute.
->>>>>>> 1affdf0 (Change displayname attribute to preferredName)
 
 - ID: "???"
   username: unknown

@@ -1,7 +1,7 @@
 .env
 .netlify
 .hugo_build.lock
-.content-prebuild
+content-test
 node_modules
 public
 resources

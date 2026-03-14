@@ -4,23 +4,110 @@ const yaml = require("js-yaml");
 
 const rewriteContributors = require("./contributors.js");
 
-const CONTENT_SRC = "content";
-const CONTENT_DST = ".content-prebuild";
+/**
+ * @typedef {object} Frontmatter
+ * @property {string} title
+ * @property {number} weight
+ * @property {string} date
+ * @property {Array<string>} contributors
+ * @property {Array<string>} [authors]
+ * @property {boolean} draft
+ */
 
+// -------------------------------------------- PARSE FRONTMATTER --------------------------------------------
 
+/**
+ * Extracts the frontmatter and body from a Markdown file.
+ * @param {string} text Raw Markdown file content.
+ * @returns {{frontmatter: Frontmatter, body: string} | null} Parsed page or null if no frontmatter exists.
+ */
 function extractFrontmatter(text) {
   const match = text.match(/^\s*---\r?\n([\s\S]*?)\r?\n---/);
   if (!match) return null;
   const frontmatter = yaml.load(match[1]);
   const body = text.slice(match[0].length);
 
-  return {
-    frontmatter,
-    body,
-  };
+  return {frontmatter, body};
 }
 
-// TODO: Run more tests
+/**
+ * Serializes a frontmatter object into YAML format.
+ * @param {Frontmatter} frontmatter Frontmatter object.
+ * @returns {string} YAML frontmatter including delimiters.
+ */
+function serializeFrontmatter(frontmatter) {
+  return (
+    "---\n" +
+    yaml.dump(frontmatter, {
+      lineWidth: -1,
+      quotingType: '"',
+      forceQuotes: true,
+    }) +
+    "---"
+  );
+}
+
+// -------------------------------------------- TRANSFORMATION PIPELINES --------------------------------------------
+
+/**
+ * List of transformations applied to frontmatter objects.
+ * Each function receives a frontmatter object and must return a modified frontmatter.
+ * @type {Array<(frontmatter: Frontmatter) => Frontmatter>}
+ */
+const frontmatterTransforms = [
+  rewriteContributors,
+];
+
+/**
+ * List of transformations applied to Markdown bodies.
+ * Each function receives the body and optionally the frontmatter.
+ * @type {Array<(body: string, frontmatter: Frontmatter) => string>}
+ */
+const bodyTransforms = [
+  (body) => body // placeholder transform until future transforms are added
+];
+
+/**
+ * Applies all frontmatter transformations sequentially.
+ * @param {Frontmatter} frontmatter Frontmatter object.
+ * @returns {string} Serialized YAML frontmatter including delimiters.
+ */
+function applyFrontmatterTransforms(frontmatter) {
+  let current = frontmatter;
+
+  for (const transform of frontmatterTransforms) {
+    current = transform(current);
+  };
+
+  return serializeFrontmatter(current);
+}
+
+/**
+ * Applies all body transformations sequentially.
+ * @param {string} body Markdown body content.
+ * @param {Frontmatter} frontmatter Parsed frontmatter associated with the body.
+ * @returns {string} Transformed Markdown body.
+ */
+function applyBodyTransforms(body, frontmatter) {
+  let current = body;
+
+  for (const transform of bodyTransforms) {
+    current = transform(current, frontmatter);
+  };
+
+  return current;
+}
+
+// -------------------------------------------- PROCESS SPECIFIED CONTENT FOLDER --------------------------------------------
+
+/**
+ * Recursively processes a directory containing Markdown files.
+ * For each file:
+ * - extracts frontmatter
+ * - applies transformation pipelines
+ * - writes the modified content back to disk
+ * @param {string} dir Directory to process.
+ */
 function processDir(dir) {
   for (const entry of fs.readdirSync(dir, {withFileTypes: true})) {
     const filePath = path.join(dir, entry.name);
@@ -37,19 +124,64 @@ function processDir(dir) {
 
     if (!page) continue;
 
-    if (Array.isArray(page.frontmatter.contributors)) {
-      const newFrontmatter = rewriteContributors(page.frontmatter);
-      fs.writeFileSync(filePath, newFrontmatter + page.body);
-    }
+    const newFrontmatter = applyFrontmatterTransforms(page.frontmatter);
+    const newBody = applyBodyTransforms(page.body);
 
-  }
+    fs.writeFileSync(filePath, newFrontmatter + newBody);
+  };
 }
 
-/* ---------- rebuild pipeline ---------- */
+/* ---------- prebuild pipeline ---------- */
 
-fs.rmSync(CONTENT_DST, {recursive: true, force: true});
-fs.cpSync(CONTENT_SRC, CONTENT_DST, {recursive: true});
+/**
+ * Runs the content prebuild pipeline.
+ *
+ * If a destination directory is provided, the source directory
+ * is copied there before processing.
+ * @param {string} src Source content directory.
+ * @param {string} [dst] Destination directory where content will be copied.
+ * @param {object} [options]
+ * @param {boolean} [options.clean=false] Whether to remove dst before copying.
+ */
+function processContent(src, dst, options = {}) {
+  if (dst === src) {
+    throw new Error("Source and destination directories must be different.");
+  };
 
-processDir(CONTENT_DST);
+  const {
+    clean = false,
+  } = options;
 
-console.log(`${CONTENT_DST} folder created successfully`);
+  let targetDir = src;
+
+  if (dst) {
+    if (clean && dst !== src) {
+      fs.rmSync(dst, {recursive: true, force: true});
+    };
+
+    if (!fs.existsSync(dst)) {
+      fs.cpSync(src, dst, {recursive: true});
+    };
+
+    targetDir = dst;
+  };
+
+  processDir(targetDir);
+
+  console.log(`\n${targetDir} folder processed successfully.`);
+}
+
+const CONTENT_SRC = "content";
+const CONTENT_DST = "content-test";
+const TEST_OPTIONS = {
+  clean: false,
+};
+
+// MARK THIS AS TRUE WHILE TESTING NEW SCRIPTS
+const USE_TEST = true;
+
+if (USE_TEST) {
+  processContent(CONTENT_SRC, CONTENT_DST, TEST_OPTIONS);
+} else {
+  processContent(CONTENT_SRC);
+};
