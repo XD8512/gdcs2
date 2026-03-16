@@ -138,7 +138,7 @@ The Robot functions similarly to the Cube, but uses holds instead. Due to this i
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1yKKnsqA_4IUzKnz1mCGks8Xso_XoqXZA/preview?usp=drivesdk></iframe></div>
 
-This IS the snappiest gamemode in the game, hands down. The instant teleportation of the Spider allows for an extreme amount of movement in the shortest amount of time.nfortunately, due to the instant teleportation, the player may die instantly without knowing why, as slightly mistiming a click can lead to you completely missing a platform. The Spider doesn’t need to wait to reach the ground or anything after clicking, meaning you can perform high-cps parts more easily with the Spider while still emphasizing the clicks a lot. Repetition will work for this gamemode too, due to the movements being straight vertical lines.
+This IS the snappiest gamemode in the game, hands down. The instant teleportation of the Spider allows for an extreme amount of movement in the shortest amount of time. Unfortunately, due to the instant teleportation, the player may die instantly without knowing why, as slightly mistiming a click can lead to you completely missing a platform. The Spider doesn’t need to wait to reach the ground or anything after clicking, meaning you can perform high-cps parts more easily with the Spider while still emphasizing the clicks a lot. Repetition will work for this gamemode too, due to the movements being straight vertical lines.
 
 **Pros & Cons**
 - Snappy and strong
@@ -174,14 +174,14 @@ Ultimately, the *how* is a lot more nuanced as there are a nearly limitless amou
 ## Cube
 As mentioned earlier, Cube is reliant on orbs due to its simplicity. We don’t want to *spam* orbs though, because orb chains are inconsistent and it’ll diminish the value of the gamemode. Thus, try not to use orbs unless you need to; they can emphasize or mix things up, but try to make use of pads, falling, gravity changes, and even things like head hitters to make things interesting.
 
-The Cube takes good advantage of holding after orbs, as holding after a black orb or a blue orb straight onto a platform will make the player automatically jump. This can make the Cube more unique, but can also be buggy at times so use it well. When holding before an orb, you’ll automatically click it when making contact.mKeep in mind that the yellow orb functions exactly like a normal jump, allowing mixups, but it can also make the yellow orb feel less unique.
+The Cube takes good advantage of holding after orbs, as holding after a black orb or a blue orb straight onto a platform will make the player automatically jump. This can make the Cube more unique, but can also be buggy at times so use it well. When holding before an orb, you’ll automatically click it when making contact. Keep in mind that the yellow orb functions exactly like a normal jump, allowing mixups, but it can also make the yellow orb feel less unique.
 
 Here’s an example Cube part I made that uses orbs and  the Cube’s natural properties to my advantage. I chose it here because it’s snappy enough to function in fast, strong parts and can emphasize the high-cps parts well, while also being  simple enough to ease the player into the drop.
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1HYyehxc6y0xKwCo0QW-ygAaD9HLNKPjG/preview?usp=drivesdk></iframe></div>
 
 ## Ship
-Ship parts can have a free-flowing nature, but you can still make this really interesting. Don’t *always*have the player idly float, and give them something to do. For example, have the player go up when the song’s melody or volume rises, or vice versa. As a gamemode with air control, structuring is really important for players to understand your gameplay, so try to keep things at least somewhat understandable.
+Ship parts can have a free-flowing nature, but you can still make this really interesting. Don’t *always* have the player idly float, and give them something to do. For example, have the player go up when the song’s melody or volume rises, or vice versa. As a gamemode with air control, structuring is really important for players to understand your gameplay, so try to keep things at least somewhat understandable.
 The Ship can also feel snappier using orbs as well. There are a lot of unique interactions with orbs because the Ship takes into account hold inputs at all times.
 - Blue orbs act as a small burst of momentum when holding
 - Black orbs bounce the player if they touch a platform
@@ -250,7 +250,7 @@ This is the Spider part in my level, rounding out this part of the drop. This sp
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1DBbM8mxojBTjXDckWHVaRFRhPaBbtron/preview?usp=drivesdk></iframe></div>
 
 ## Swing
-Swing is widely considered as the worst gamemode due to how badly creators use it. They tend to slap it on top of Ship gameplay without considering what the Swing does best: big arcs and curves. Swing uses big curves best, so make sure you take advantage of that. Another important part of Swing is how long it takes for you to actually *see* your input. You can either you can use the gamemode’s unresponsivenessto your advantage (like BUTTON MASHER by Viprin & More), or you can somewhat remedy it using the gravity trigger to increase the player’s gravity.
+Swing is widely considered as the worst gamemode due to how badly creators use it. They tend to slap it on top of Ship gameplay without considering what the Swing does best: big arcs and curves. Swing uses big curves best, so make sure you take advantage of that. Another important part of Swing is how long it takes for you to actually *see* your input. You can either you can use the gamemode’s unresponsiveness to your advantage (like BUTTON MASHER by Viprin & More), or you can somewhat remedy it using the gravity trigger to increase the player’s gravity.
 
 {{< youtube 7b6NTNIa2Lg >}}
 
