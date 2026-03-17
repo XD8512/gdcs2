@@ -18,7 +18,11 @@ draft: false
 {{< /callout >}}
 
 ** **
-None
+Detail Objects are objects that usually don't have a hitbox. You can use them to enhance your deco without directly affecting gameplay, and they can be used in many ways depending on their different factors.
+
+Most detail objects can be found in these tabs.
+
+https://drive.google.com/file/d/1rQrXB8ob0zyXAQnXbM89itV8Z34_ybwb/view?usp=drive_link
 
 # 1: Types of Detail Objects
 
