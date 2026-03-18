@@ -48,8 +48,11 @@ Some examples of these are in `Deadlocked` by `Robtop` and `Culuc`'s part in `Ed
 Some examples of these are `Woom`'s part in `Koenigstein` (inside the blocks), and `Xender Game`'s part in `Dream Flower`.
 
 {{< img src="https://lh3.googleusercontent.com/d/1mIZEYhM6PcgaanbCnfNYnfq1xtkVG-iq" >}}
+*Woom's part in Koenigstein.*
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1llIQDADqdVmJbtGG-dcLgWM3n098jJka" >}}
+*Xender Game's part in Dream Flower.*
+
 
 # 2: Making Gradients
 
