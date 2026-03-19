@@ -39,11 +39,12 @@ By using Additive Blending, we can unlock many possibilities that you can use in
 - Go to the colour channel that you want to have blending enabled.
 - Click on it in the bottom right corner, where the settings of the colour channel should appear.
 
-None (picture showing colour channel settings or something)
+{{< img src="https://lh3.googleusercontent.com/d/1z4hkKhJeIZoJtbuEdz0lWxq4ifT00Bg-" >}}
 - Check off "Blending" in the bottom left section of your colour channel settings.
-- If you've done these steps, correctly, you should see a white dot on the top left of your colour channel.
+- If you've done these steps correctly, you should see a white dot on the top left of your colour channel.
+{{< img src="https://lh3.googleusercontent.com/d/1FRrLGa6yfHwFckZtupPKWVlKrZpUG5ZB" >}}
 
-None
+
 
 # 2: General Blending Mask
 
