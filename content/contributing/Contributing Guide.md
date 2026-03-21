@@ -2,7 +2,6 @@
 title: "Contributing Guide"
 description: ""
 summary: ""
-date: 2026-03-20T00:00:00.000Z
 draft: false
 toc: true
 type: "hub"
@@ -12,6 +11,7 @@ seo:
   canonical: ""
   noindex: false
 ---
+
 **Geometry Dash Creator School** is a community-driven project. If you like what we're doing and want to be a part of it, here's all the information you need to know!
 
 ## Getting Started

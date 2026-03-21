@@ -1,7 +1,6 @@
 ---
 title: "Formatting"
 weight: 105
-date: 2024-01-01T00:00:00.000Z
 authors:
   - "komatic5"
   - "chuckolate"

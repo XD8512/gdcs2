@@ -1,11 +1,10 @@
 ---
 title: "Decap"
 weight: 5
-date: 2024-01-01T00:00:00.000Z
-authors:
-  - "chuckolate"
-contributors:
-  - "chuckolate"
 draft: false
 ---
-testsetsdfsdf
+{{< callout context="danger" title="This page is a stub." icon="outline/info-circle" >}}
+
+The contents are being worked on.
+
+{{< /callout >}}
