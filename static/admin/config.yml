@@ -7,12 +7,24 @@ backend:
 media_folder: /static/media
 public_folder: /media
 publish_mode: editorial_workflow
+site-url: https://www.gdcreatorschool.com/
 
 fields: &page_fields
-  - { label: Draft, name: draft, widget: boolean }
-  - { label: Math, name: math, widget: boolean }
+  - { label: Draft, name: draft, widget: boolean,
+    hint: "Enabling draft mode lets you save your changes, but doesn't make them available on the website."}
   - { label: Title, name: title, widget: string }
-  - { label: Weight, name: weight, widget: number }
+  - { label: SEO, name: seo, widget: list, allow_add: false,
+    field: {
+      label: "Description",
+      name: description,
+      default: "description: ",
+      widget: string,
+      collapsed: false},
+    hint: "The SEO (title and description) people will see when viewing your guide online."}
+  - { label: Weight, name: weight, widget: number,
+    hint: "Pages with high weight will display below pages with low weight.\nLook at other guides in this folder to see where to place your own." }
+  - { label: Math, name: math, widget: boolean, required: false,
+    hint: "Lets you use MathJax for math formatting in your guide."}
   - { label: Body, name: body, widget: markdown }
 
 collections:
@@ -23,6 +35,7 @@ collections:
       depth: 5
       subfolders: false
     fields: *page_fields
+    create: true
 
   - name: contributing
     label: Contributing
