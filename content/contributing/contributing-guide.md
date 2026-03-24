@@ -3,6 +3,7 @@ title: "Contributing Guide"
 description: ""
 summary: ""
 draft: false
+weight: 50
 toc: true
 type: "hub"
 seo:
@@ -19,36 +20,36 @@ seo:
 We use Git-based systems to handle contributions, so you'll need a [GitHub account](https://github.com/) before we start. Once you have one, you can choose one of the following methods to contribute.
 <div class="row row-cols-1 row-cols-md-2 g-3">
 
-{{< link-card-img
+{{< link-card
   title="Decap"
   description="Learn how to contribute directly from our website, better for non-technical users and quick changes."
-  image="https://lh3.googleusercontent.com/d/1085rRnQxURnHbEuFf2nkPEhHR1o3oY5L"
-  href="/contributing/getting-started/decap" >}}
+  href="/contributing/getting-started/decap"
+  class="hover-scale" >}}
 
-{{< link-card-img
+{{< link-card
   title="Local Host"
   description="Learn how to contribute through the standard Git pipeline."
-  image="https://lh3.googleusercontent.com/d/1085rRnQxURnHbEuFf2nkPEhHR1o3oY5L"
-  href="/contributing/getting-started/localhost" >}}
+  href="/contributing/getting-started/localhost"
+  class="hover-scale" >}}
 
 </div>
 
 ## Guidelines
 
+Before submitting content, review our guidelines to ensure consistency and quality across all guides.
+
 <div class="row row-cols-1 row-cols-md-2 g-3">
 
-{{< link-card-img
+{{< link-card
   title="Formatting"
-  description="Learn how to contribute directly from our website, better for non-technical users and quick changes."
-  image="https://lh3.googleusercontent.com/d/1085rRnQxURnHbEuFf2nkPEhHR1o3oY5L"
-  href="/contributing/getting-started/decap" >}}
+  description="Learn what the frontmatter is and how to style your guide correctly."
+  href="/contributing/guidelines/formatting"
+  class="hover-scale">}}
 
-{{< link-card-img
-  title="Writting Style"
-  description="Learn how to contribute directly from our website, better for non-technical users and quick changes."
-  image="https://lh3.googleusercontent.com/d/1085rRnQxURnHbEuFf2nkPEhHR1o3oY5L"
-  href="/contributing/getting-started/decap" >}}
+{{< link-card
+  title="Writing Style"
+  description="Learn writing techniques and our guide standards."
+  href="/contributing/guidelines/writing-style"
+  class="hover-scale" >}}
 
 </div>
-
-## Roadmap & Troubleshooting

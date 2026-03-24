@@ -30,7 +30,11 @@ fields: &page_fields
 collections:
   - name: guides
     label: Guides
+    label_singular: Guide
     folder: "content/docs/guides"
+    slug: "{{slug}}"
+    sortable_fields: []
+    summary: "[Draft: {{ draft }}] - {{ title }}"
     nested:
       depth: 5
       subfolders: false
@@ -39,8 +43,13 @@ collections:
 
   - name: contributing
     label: Contributing
+    label_singular: Guide
     folder: "content/contributing"
+    slug: "{{slug}}"
+    sortable_fields: []
+    summary: "[Draft: {{ draft }}] - {{ title }}"
     nested:
       depth: 5
       subfolders: false
     fields: *page_fields
+    create: true

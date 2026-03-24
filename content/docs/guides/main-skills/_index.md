@@ -1,12 +1,12 @@
 ---
-title: "Getting Started"
+title: "Main Skills"
 description: ""
 summary: ""
 draft: false
-weight: 2
+weight: 200
 toc: true
 sidebar:
-  collapsed: false
+  collapsed: true
 seo:
   title: ""
   description: ""

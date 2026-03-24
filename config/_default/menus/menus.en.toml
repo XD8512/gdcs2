@@ -1,6 +1,6 @@
 [[main]]
   name = "User Guide"
-  url = "/user_guide"
+  url = "/user-guide"
   weight = 10
 
 [[main]]
