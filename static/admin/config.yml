@@ -1,18 +1,55 @@
 backend:
-  name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
-media_folder: static/img
-public_folder: /img
+  name: github
+  repo: komatic5/gdcs2
+  branch: main
+  open_authoring: true
+
+media_folder: /static/media
+public_folder: /media
+publish_mode: editorial_workflow
+site-url: https://www.gdcreatorschool.com/
+
+fields: &page_fields
+  - { label: Draft, name: draft, widget: boolean,
+    hint: "Enabling draft mode lets you save your changes, but doesn't make them available on the website."}
+  - { label: Title, name: title, widget: string }
+  - { label: SEO, name: seo, widget: list, allow_add: false,
+    field: {
+      label: "Description",
+      name: description,
+      default: "description: ",
+      widget: string,
+      collapsed: false},
+    hint: "The SEO (title and description) people will see when viewing your guide online."}
+  - { label: Weight, name: weight, widget: number,
+    hint: "Pages with high weight will display below pages with low weight.\nLook at other guides in this folder to see where to place your own." }
+  - { label: Math, name: math, widget: boolean, required: false,
+    hint: "Lets you use MathJax for math formatting in your guide."}
+  - { label: Body, name: body, widget: markdown }
+
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'content/blog'
+  - name: guides
+    label: Guides
+    label_singular: Guide
+    folder: "content/docs/guides"
+    slug: "{{slug}}"
+    sortable_fields: []
+    summary: "[Draft: {{ draft }}] - {{ title }}"
+    nested:
+      depth: 5
+      subfolders: false
+    fields: *page_fields
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: contributing
+    label: Contributing
+    label_singular: Guide
+    folder: "content/contributing"
+    slug: "{{slug}}"
+    sortable_fields: []
+    summary: "[Draft: {{ draft }}] - {{ title }}"
+    nested:
+      depth: 5
+      subfolders: false
+    fields: *page_fields
+    create: true
