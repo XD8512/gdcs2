@@ -15,14 +15,17 @@ fields: &page_fields
   - { label: Draft, name: draft, widget: boolean,
     hint: "Enabling draft mode lets you save your changes, but doesn't make them available on the website."}
   - { label: Title, name: title, widget: string }
-  - { label: SEO, name: seo, widget: list, allow_add: false,
-    field: {
-      label: "Description",
-      name: description,
-      default: "description: ",
-      widget: string,
-      collapsed: false},
-    hint: "The SEO (title and description) people will see when viewing your guide online."}
+  - label: SEO
+    name: seo
+    widget: object
+    collapsed: true
+    required: false
+    hint: "The SEO (title and description) people will see when viewing your guide online."
+    fields:
+    - { label: Title, name: title, widget: string, required: false }
+    - { label: Description, name: description, widget: text, required: false }
+    - { label: Canonical URL, name: canonical, widget: string, required: false }
+    - { label: No Index, name: noindex, widget: boolean, required: false }
   - { label: Weight, name: weight, widget: number,
     hint: "Pages with high weight will display below pages with low weight.\nLook at other guides in this folder to see where to place your own." }
   - { label: Math, name: math, widget: boolean, required: false,
