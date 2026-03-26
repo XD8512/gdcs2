@@ -124,7 +124,9 @@ The final important topic for this guide is **design language**. This is how you
 
 While this is a very intricate topic, it helps to know some basic things about it. Here are some things to consider when developing a design language or style.
 
-* **Repetition:** Repeating certain shapes, colors, or other design elements can help create patterns. These patterns help others know what to expect and how they should respond to parts of your work.
+* **Repetition:** Repeating certain shapes, colors, or other design elements can help create patterns. These patterns help others know what to expect and how they should respond to parts of your work.\
+  \
+  For instance, spikes in Geometry Dash are *triangles*, which is a clear example of design language. When you see a triangle, you'll likely assume it is a spike, and respond by avoiding it.
 
 
 
