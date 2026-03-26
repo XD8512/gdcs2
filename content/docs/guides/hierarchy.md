@@ -12,11 +12,18 @@ current content. Will be fleshed out but just wanted to actually make the guide 
 * Decoration is made of multiple components, such as shape and color.
 * These components are the building blocks of any decoration, so it's important to know what they are and how to use them.
 * One crucial use for deco component is hierarchy*, which determines how "important" a deco element feels.
-  {{< /callout >}}
-  {{< callout context="danger" title="This is an advanced guide." icon="outline/alert-octagon" >}}
+
+
+{{< /callout >}}
+
+
+{{< callout context="danger" title="This is an advanced guide." icon="outline/alert-octagon" >}}
+
 * If you're newer to creating, it is highly recommended* that you learn what's in the Beginner and Intermediate guides first.
 * Of course, we can't stop you from reading ahead, but you may struggle to apply the concepts in these guides while also learning to create.
-  {{< /callout >}}
+
+
+{{< /callout >}}
 
 # 1: Deco Elements
 
@@ -67,7 +74,7 @@ Since visual weight is based on the elements of deco, each one provides a way to
 * **Shape:** Objects with regular shapes, like polygons, will have more weight than ones with irregular shapes. This is likely due to them being easier to recognize as actual objects, in the same way that real words convey more meaning than "afokenof" or "hhhgjhg".
 * **Direction:** This is also derived from shape. Objects that appear vertical will stand out more than horizontal ones. Diagonal objects have the most weight, and as such they're used the most for dynamic deco.
 * **Edges/Lines:** Objects with thicker lines will appear to have more weight than objects with thinner lines. This is a side effect of proximity as thick lines are often used to convey objects being closer.
-* **Proportion:** Larger parts of objects will carry more visual weight than smaller parts.
+* **Proportion:** Larger parts of objects carry more visual weight than smaller parts.
 * **Texture:** Objects with textures will have more visual weight than flat objects without any texture. This is also the least impactful way to increase visual weight.
 
 ## Hierarchy
