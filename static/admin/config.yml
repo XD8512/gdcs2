@@ -15,6 +15,7 @@ fields: &page_fields
   - { label: Draft, name: draft, widget: boolean,
     hint: "Enabling draft mode lets you save your changes, but doesn't make them available on the website."}
   - { label: Title, name: title, widget: string }
+  - { label: Date, name: date, widget: datetime, time_format: false, format: "YYYY-MM-DD" }
   - label: SEO
     name: seo
     widget: object
