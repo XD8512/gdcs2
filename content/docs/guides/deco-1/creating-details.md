@@ -109,14 +109,17 @@ Compare these two screenshots, once again from Ghostrunner. The second one inclu
 
 {{< /img-grid >}}
 
+# 3: Making Details
 
-# 1: References
+The process for making details is similar to that for decorating: you get an idea, choose references for it, create the basic shapes, and repeat. However, it helps to see how this process looks when thinking about details, as opposed to making a general deco idea.
+
+## References
 
 Unless you’re a master of using shapes to make objects, you’ll need to build up this skill by __analyzing the objects you wish to make__. Only the most skilled creators can produce deco directly from their minds, and only with specific objects that they have studied. If you think you’re above using references, try building anything without them and see how well you do - you’ll see how much better you do when you have a reference.
 
 The same way that you know what a solved Rubiks’ cube looks like before trying to solve one, you must have a clear idea of your goal before you **reference** things. If you’ve read the Creative Process guides in #main-skills, you’ll already understand how to make ideas and set goals for your levels. This is a necessary step before you can start decorating so I will assume you’ve read those guides and have a tangible vision already. If you don’t have a vision yet, then read them and make one!
 
-## Referencing Process
+### Referencing Process
 
 Starting from your main idea, you need to find inspiration based on it. This will give you ideas for specific elements to include. For example, you may choose to create a cake inside a wedding-themed level. For a more abstract idea like “Glow” or “Modern” you should look at more abstract media like visual effects or motion graphics.
 
@@ -124,7 +127,7 @@ After you have ideas for specific elements, you should search for references bas
 
 Finally, it’s time to actually reference; choose a specific detail or property from each reference image and use the skills from the last guide to remake that. You should now have successfully referenced an image. I strongly encourage you to combine multiple references and ideas when decorating, as it’ll help make your work more unique.
 
-## Example
+### Example
 
 Here's an example with an actual wedding cake, made by Sparktwee. At first, they attempted to make a wedding cake from memory without any references, which turned out quite unrefined and basic.
 
@@ -156,10 +159,11 @@ One of the most effective study techniques you can do as a beginner is to make c
 
 As you gain skill and advance through the grades, you’ll be asked to do studies which focus on concepts, not skills. For example, you’ll have to do studies of how light & color work with objects in the Grade 2 guides. Similarly, you’ll need to study movement and timing for the Animation unit later on. For now though, just focus on studying techniques to make shapes from objects.
 
-# 2: Using Details
+## Specific Detail Types
 
-A **detail** is an __individual feature or component of an object__. You should know how to make these from the last section of this guide, but you may wish to create custom details of your own or combine details from different objects. When doing so, 
+Learning to make certain types of details, like shapes and colors, requires you to learn many separate deco skills. As such, there are multiple guides you should read to learn these skills.
 
+- 
 
 **Video:**
 
