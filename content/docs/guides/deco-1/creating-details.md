@@ -131,7 +131,7 @@ The process for making details is similar to that for decorating: you get an ide
 
 Unless you’re a master of using shapes to make objects, you’ll need to build up this skill by __analyzing the objects you wish to make__. Only the most skilled creators can produce deco directly from their minds, and only with specific objects that they have studied. If you think you’re above using references, try building anything without them and see how well you do - you’ll see how much better you do when you have a reference.
 
-The same way that you know what a solved Rubiks’ cube looks like before trying to solve one, you must have a clear idea of your goal before you **reference** things. If you’ve read the Creative Process guides in #main-skills, you’ll already understand how to make ideas and set goals for your levels. This is a necessary step before you can start decorating so I will assume you’ve read those guides and have a tangible vision already. If you don’t have a vision yet, then read them and make one!
+The same way that you know what a solved Rubiks’ cube looks like before trying to solve one, you must have a clear idea of your goal before you **reference** things. If you’ve read the main skills, you’ll already understand how to make ideas and set goals for your levels. This is a necessary step before you can start decorating so I will assume you’ve read those guides and have a tangible vision already. If you don’t have a vision yet, then read them and make one!
 
 ### Referencing Process
 
