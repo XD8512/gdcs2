@@ -55,7 +55,7 @@ Since details are features of objects, it helps to go through some features obje
 
   Because textures are basically just "applied shapes + colors", they often aren't as needed as these other detail types. The choice to use textures or not is typically a stylistic one as a result.
 
-  Below is a metal texture I made many years ago. You can see the individual shapes if you look closely, but the main goal is for the shapes to blend together. The *effect* of seeing shiny metal is there, while most of the shapes are low opacity gradients so they blend together more.
+  Below is a metal texture I made many years ago. You can see the individual shapes if you look closely, but the main goal is for the shapes to blend together. The *effect* of seeing shiny metal is there, while most of the shapes are low opacity gradients so they blend together more. 
 
   {{< img src="https://lh3.googleusercontent.com/d/1GMfNVqsAqi7yi_mIZMMWk1XcUO9g2r3v" >}}
 
