@@ -1,13 +1,7 @@
 {{ $path := replace .File.Path "\\" "/" }}
 {{ $parts := split $path "/" }}
 
-{{ $collection := "" }}
-{{ range $i, $p := $parts }}
-  {{ if eq $p "guides" }}
-    {{ $collection = index $parts (add $i 1) }}
-  {{ end }}
-{{ end }}
-
+{{ $collection := index $parts (sub (len $parts) 2) }}
 {{ $filename := index $parts (sub (len $parts) 1) }}
 {{ $slug := replace $filename ".md" "" }}
 

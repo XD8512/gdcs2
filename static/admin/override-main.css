@@ -6,16 +6,22 @@
   --sl-color-black: hsl(0, 0%, 100%) !important;
   --sl-color-bg-inline-code: hsl(224, 20%, 94%) !important;
   --sl-color-text: #1a1a1a !important;
+
+  /* bootstrap fallback */
+  --bs-gray-100: #f3f4f6;
+  --bs-gray-300: #d1d5db;
+
 }
 
 pre {
   background: var(--sl-color-gray-6) !important;
   padding: 12px;
   border-radius: 6px;
-  overflow-x: auto;
 }
 
-code[class*="language-"] {
+code {
   background-color: var(--sl-color-gray-6) !important;
   color: #1a1a1a !important;
+  padding: 3px;
+  border-radius: 3px;
 }
