@@ -4,9 +4,9 @@ const path = require('path');
 const publicDir = path.join(__dirname, '../public');
 const targetDir = path.join(__dirname, '../public/admin');
 
-if (!fs.existsSync(publicDir)) {
-    console.warn("Copy main.css into public/ failed: The 'public' folder didn't exist. Run 'npm run dev' again.");
-    process.exit(0);
+if (!fs.existsSync(targetDir)) {
+    console.warn("Creating '/public/admin' folder.");
+    fs.mkdirSync(targetDir, { recursive: true });
 }
 
 const files = fs.readdirSync(publicDir);
@@ -30,5 +30,5 @@ if (mainCSS) {
 
     console.log(`Success: Clean main.css saved to public/admin/main.css`);
 } else {
-    console.warn("A main.*.css file doesn't exist in public/");
+    console.warn("A main.*.css file doesn't exist in public/. Copy wasn't created.");
 }
