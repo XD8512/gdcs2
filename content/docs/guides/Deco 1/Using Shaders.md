@@ -92,10 +92,30 @@ Instead of just relying on strong effects lasting a lifetime, shaders can be use
 
 None
 
-## Using Them for Effects
-Creators can use shaders for complex techniques like [masking](https://www.gdcreatorschool.com/docs/guides/deco-1/other-masks) or making backgrounds. Although these effects often require planning from the start of creation, they can be very powerful if they fit the level's design. Also note that the decoration and shaders should work together closely.
+# 3: Using Shaders to Mask Certain Objects
+Shader Masking gives you control over where visual effects appear in your level. Instead of applying a visual effect to everything on the screen, you can choose specific objects or areas to be affected. This allows you to make parts of the background change colour, highlight certain areas, or create effects that only appear in specific regions, all while keeping important parts of the level like the gameplay completely clear.
+
+One important fact you should know is that you are not limited to the “normal” values shown in the editor. Shader effects can become much more useful when you push their values far beyond what you would typically use. For "normal" shader usage, small values are usually enough to give you the effects you want. However, for masking and more complex visuals, larger values are often required to make the effect strong enough. Here are some examples of shader effects and masks that use values beyond the "normal" ones:
+
+## Shockwave/line Mask
+By using a Shockwave or Shockline Shader and setting it to a very high value (such as 10000 or 50000), you can hide any objects behind it. You can also configure what the shader mask affects by using the Shader Trigger and changing it so it only affects a specific Z Layer.
+
+## Gradient Trigger Mask
+By using a Gradient Trigger, you can do all sorts of things, including additive, inversion, and multiply effects. Anything under the gradient will be affected, and it requires 3-4 points set to different Group IDs. (To create a shape) Also note that some gradient effects aren't compatible with shaders, like invert gradient with lens circle. Although it isn't a shader, it can be used alongside them, serving as a useful tool, if needed.
+
+## Motion Blur Opacity Control Mask
+This mask acts like an alpha trigger but makes it so that objects don't overlap.
 
 None
 
-## Making Sure You Use Shaders With Purpose
-And finally, every shader should have a clear reason and purpose behind it. I know i've said it before, but it's really just that important. Whether it's to emphasize strong beats, improve the atmosphere, or polish transitions, shaders should support the level rather than distracting it. Random shader abuse can make a level feel messy and worse to play.
+As you can see, the objects on the left don't overlap with eachother, unlike the objects on the right. Due to the fact that motion blur spaces out the blurs by the z layer on the x and y axis, if we just scale it up to something like 10000, the blurring effect will disappear, giving us the opaque object. This is because motion blur lowers the opacity of the objects based on the intensity, and also makes it so that any overlapping objects don't have the "overlapping" effect a standard alpha trigger would give. This mask is best used when there are many details in your level, just like Aperture.
+
+But you may have noticed that the colours look "washed out," or desaturated. This is because it is, which we can simply fix by adding a saturation booster.
+
+## Saturation Boosting
+Saturation Boosting will be very beneficial for the next example and the example before. By using a Sepia, Grayscale, or Edit Color Shader, you can boost the saturation of any object on a z layer by pushing their values over 1. It's most useful when you feel like an object is washed out, or when other shader effects unintentionally lower the saturation of an object.
+
+## Colour Banding Gradient Effect
+Although this effect isn't very well known, it's actually used in levels like Eta Carnis. By using a gradient trigger and setting one colour pitch black (0, 0, 0,) and the other one to some very dark color that tints toward one colour, (eg. 8, 7, 7, where 8 would be the color that it's tinted towards.) we can add a saturation booster which boosts the saturation of the colour that it's tinted towards, (In this case red.) and keep the other one pitch black. (As 0, 0, 0, saturation boosted is still the same)
+
+This creates a banding effect, despite being just one gradient trigger. It's a trippy effect that is very unstable, and very chaotic. Due to this fact, I suggest trying it out in a separate level and experimenting with it. You can also try putting black glow circles above the gradient. Enjoy ;)
