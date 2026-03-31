@@ -2,6 +2,7 @@
 title: Asking for Feedback
 weight: 2040
 date: 2023-03-09T00:00:00.000Z
+description: In this guide, we’ll outline how you should approach giving and receiving feedback. This should help you receive better feedback and get more meaningful interactions when you do so.
 authors:
   - komatic5
 contributors:
@@ -14,6 +15,7 @@ draft: false
 - Make sure you’re specific when you ask for feedback, so people can give you specific feedback that helps you.
 - Be polite when receiving feedback, even if you decide to reject it.
 {{< /callout >}}
+
 ** **
 
 # 1: Getting Feedback

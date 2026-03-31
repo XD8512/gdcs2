@@ -2,6 +2,7 @@
 title: Hosting a Collab
 weight: 2140
 date: 2023-09-30T00:00:00.000Z
+description: Collabs are always a popular way to make Geometry Dash levels. However, you'll make many fatal mistakes unless you know how to manage them properly. This guide will explain how to host a collab properly.
 authors:
   - komatic5
 contributors:
@@ -17,6 +18,10 @@ draft: false
 - With this planning out of the way, the final task is to manage your collab itself. Conduct frequent progress checks with your collab members and show them that you’re passionate about completing the level.
 {{< /callout >}}
 ** **
+
+Collaborating with others is a common way to make levels, and it has many benefits. You get multiple people working on the level at once, which saves time and makes ambitious ideas become far more feasible.
+
+However, over 90% of collabs fail to get off the ground, and the ones which are released are a small minority. Most collab failures come down to poor management, which you’ll know if you’ve ever tried to collaborate with others. This guide will teach you how to manage your collabs properly and maximize your chances of succeeding.
 
 # 1: Have A Reason To Collab
 

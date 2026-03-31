@@ -3,7 +3,6 @@ title: Bossfight Design
 weight: 7210
 date: 2024-09-18T00:00:00.000Z
 description: What makes a bossfight feel like one? Levels with bosses used to be quite limited, but Update 2.2 has broadened the scope of what you can make a boss do. And yet with more freedom comes more design choices, so this guide will explain how you can make bosses and what can contribute to its design.
-description:
 authors:
   - illusion2
 contributors:

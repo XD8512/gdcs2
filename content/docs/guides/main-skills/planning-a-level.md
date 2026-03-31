@@ -2,6 +2,7 @@
 title: Planning a Level
 weight: 2020
 date: 2025-03-25T00:00:00.000Z
+description: null
 authors:
   - komatic5
 contributors:
@@ -16,7 +17,9 @@ draft: false
 {{< /callout >}}
 ** **
 
-If you read the last guide, you should now have a few level ideas. If you consider ideas as the *destination* you're heading towards, a **level plan** is __the path you'll take to get there__. Like a road trip, there are many factors to consider before setting out on your creating journey, like the following:
+# 1: Refining Ideas
+
+If you read the previous guide, you should now have a few level ideas. If you consider ideas as the *destination* you're heading towards, a **level plan** is __the path you'll take to get there__. Like a road trip, there are many factors to consider before setting out on your creating journey, like the following:
 
 - What **intermediate steps** should I include while building?
 - What **resources** should I use, and how should I **plan my route**?

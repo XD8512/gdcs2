@@ -2,6 +2,7 @@
 title: Making a Draft
 weight: 2030
 date: 2025-03-25T00:00:00.000Z
+description: This guide will help you through the process of making a draft or minimum viable product, giving some tips along the way.
 authors:
   - komatic5
 contributors:
@@ -15,7 +16,12 @@ draft: false
 - Make one as quickly and simply as possible, and feel free to use placeholders for things like decoration in the level.
 - Use this MVP to get feedback on your level's idea and adjust it as necessary. Make sure you don't spend so much effort that changing your idea will waste lots of time.
 {{< /callout >}}
+
 ** **
+
+Imagine this: you spend a really long time on a level and upload it, only for it to be disliked by the people who play it and overlooked by everyone else. How can you avoid problems like this? The obvious solution is to get feedback, but quality feedback is hard to come by, especially when your level isn’t finished yet.
+
+This issue can be avoided by creating a **draft** or **minimum viable product** (MVP) - the bare-bones, pre-alpha version of your level with only the most basic concepts in place. Use this to get feedback early into development, so you can make a level that players will actually enjoy, while saving a lot of time and energy later on. These sorts of drafts allow you to fail fast, produce at a small-scale, and access valuable feedback.
 
 # 1: Executing Plans
 

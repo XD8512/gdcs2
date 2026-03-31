@@ -2,6 +2,8 @@
 title: Having a Growth Mindset
 weight: 2110
 date: 2023-03-09T00:00:00.000Z
+description: |
+  "I Can't" is the one phrase you should never say as a creator. It's part of a mindset which will always bar you from reaching your full potential. This guide explains how you can adopt a growth mindset and learn to look beyond your current skill.
 authors:
   - creeperiv
   - leotorol

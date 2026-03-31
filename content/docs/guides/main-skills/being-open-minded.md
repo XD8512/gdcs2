@@ -2,6 +2,7 @@
 title: Being Open-Minded
 weight: 2100
 date: 2023-03-16T00:00:00.000Z
+description: Having a flexible mind is key to improving as a creator. If you get stuck in one way of thinking, you'll find it much harder to do anything in your levels. This guide will provide some important lessons for being a more open-minded creator.
 authors:
   - halfcookedramen
 contributors:
@@ -16,6 +17,7 @@ draft: false
 - Don’t beat yourself up when nothing in your level seems to look right. Frustration is normal, but don’t let it overwhelm you. Persisting through difficulties is a hallmark of a mature creator.
 - Developing an entirely new attitude towards your work can be daunting. A change of mind is never easy, so take your time.
 {{< /callout >}}
+
 ** **
 
 # 1: Staying Objective

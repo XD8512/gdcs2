@@ -2,6 +2,7 @@
 title: Getting Inspired
 weight: 2080
 date: 2023-04-19T00:00:00.000Z
+description: Getting inspired is often a difficult thing. Many times, a lack of it will leave you stuck on a project. However, with the right mindset and techniques you can find inspiration anywhere. This guide will discuss exactly how you can get inspiration.
 authors:
   - tdp9
 contributors:
@@ -18,6 +19,8 @@ draft: false
 {{< /callout >}}
 
 ** **
+
+**Inspiration** is a type of creative drive to do something. While it can help you with motivation, inspiration is not the same thing. Instead, it’s merely a catalyst that’ll help to realize your ideas.
 
 # 1: Pre-Inspiration Work
 

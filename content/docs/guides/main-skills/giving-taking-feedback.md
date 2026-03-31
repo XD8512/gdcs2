@@ -2,6 +2,7 @@
 title: Giving & Taking Feedback
 weight: 2150
 date: 2023-03-14T00:00:00.000Z
+description: Handling feedback politely is crucial for people to understand your points. Even if you have good feedback or good reasons to consider certain opinions, people won't care if you tell them in a rude way. This guide explains how to provide feedback and receive it politely.
 authors:
   - unknown
 contributors:

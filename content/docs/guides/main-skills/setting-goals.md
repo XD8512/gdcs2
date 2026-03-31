@@ -2,6 +2,7 @@
 title: Setting Goals
 weight: 2070
 date: 2023-09-30T00:00:00.000Z
+description: In this guide, we will explore the benefits of goal-setting and its impact on your level creation process. As we delve into the concept of setting SMART goals, we will discover how these objectives can fuel your passion for crafting captivating levels.
 authors:
   - nikobik0
 contributors:
@@ -15,6 +16,8 @@ draft: false
 - Break large goals into smaller chunks to decrease the workload.
 {{< /callout >}}
 ** **
+
+Goals are an aspect a lot of creators overlook. A lot of creators don't set goals and build for the sake of building without any clear direction. Geometry Dash is not only a platformer game, it's an artistic canvas that allows you to transform your imagination into immersive and challenging experiences for players worldwide. However, navigating this creative landscape requires more than just raw talent. It demands a clear vision, motive, and the ability to set goals that guide your progress and keep you wanting to build.
 
 # 1: What are Goals?
 

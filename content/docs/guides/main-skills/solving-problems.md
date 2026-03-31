@@ -2,6 +2,7 @@
 title: Solving Problems
 weight: 2050
 date: 2024-07-31T00:00:00.000Z
+description: Sometimes, life just doesn’t go to plan. When you play or create levels in Geometry Dash, you may encounter bugs, glitches, or just aspects that you don’t like. These are all problems – unwanted situations you want to overcome – but solving them can be difficult. There are many frameworks you can use to solve your problems and continue your creating journey. This guide will uncover some of the most important ones.
 authors:
   - komatic5
 contributors:

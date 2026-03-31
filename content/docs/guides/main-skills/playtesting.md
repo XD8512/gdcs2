@@ -2,6 +2,7 @@
 title: Playtesting
 weight: 2130
 date: 2023-03-14T00:00:00.000Z
+description: Playtesting is crucial for all types of levels, even if they don't have gameplay. It helps you spot visual bugs, gameplay bugs, and account for different devices. This guide will explain some essential aspects of playtesting.
 authors:
   - tdp9
 contributors:

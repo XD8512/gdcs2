@@ -2,6 +2,7 @@
 title: Getting Ideas
 weight: 2010
 date: 2023-03-09T00:00:00.000Z
+description: In this guide, we'll introduce some ways for you to form ideas. This is the first step of making anything and while it can be easy to get stuck here, there are many methods of getting ideas that you can follow.
 authors:
   - sparktwee
 contributors:

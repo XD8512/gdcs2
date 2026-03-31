@@ -2,6 +2,7 @@
 title: The Rating System
 weight: 2170
 date: 2024-05-31T00:00:00.000Z
+description: How do you get a rated level? Does a rate ensure success or fame? Should you even care about rates at all? This guide answers many questions like this and explains how Geometry Dash's level rating system works at large.
 authors:
   - sparktwee
 contributors:
@@ -18,6 +19,8 @@ draft: false
 {{< /callout >}}
 
 ** **
+
+It can’t be understated that Geometry Dash has existed for this long because of community-made levels. In essence, you can build a level, verify it, and share it to the wider public. If a level is noticed by Robtop and likes its quality enough to his standards/preferences, he will rate it, giving stars to the players who beat them, and award creator points to the uploader. This motivates creators to build more levels, and the cycle repeats. This *standard process of classifying levels based on their performance and quality* makes up **Geometry Dash’s rating system**.
 
 # 1: Main Participants
 

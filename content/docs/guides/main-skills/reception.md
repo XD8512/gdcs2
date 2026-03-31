@@ -3,6 +3,7 @@ draft: false
 title: Reception
 date: 2024-08-30T00:00:00.000Z
 weight: 2170
+description: Why do some levels receive mass reception and critical acclaim while a vast majority get left by the wayside? What’s the common thread that makes them hits? Is it strictly the level’s quality? Is it from its in-game rating? Or maybe there is an invisible force controlling the numbers behind the scenes? Can that success be controlled and repeated? This guide attempts to explain the factors that contribute to a level’s reception and how much influence you have over that reception.
 authors:
   - sparktwee
 contributors:
@@ -12,17 +13,11 @@ contributors:
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 
-
-
-
 - Attention is when someone else is noticing your work; its power tends to be more obvious in large numbers.
 - Levels are digital goods, and like physical goods you can use the four elements of the marketing mix, product, promotion, price, and place, to improve reception.
 - Levels receive much more attention and usually have a more positive reception when levels' performance exceeds audience expectations.
 - Overhype or underselling can hurt a level's reputation or reception by either inflating audience expectations or downplaying the level’s presence.
 - With all that said, treat this guide as a starting point to get to know your target audience, the current trends, and expectations.
-
-
-
 
 {{< /callout >}}
 
@@ -44,7 +39,7 @@ On average, most of your audience tend to be practical, skeptical, and risk-aver
 
 Keep in mind that attention is also scarce. With one day consisting of 24 hours, I hope you’ve spent 8 of these hours sleeping. That leaves 16 disposable hours where your mind can wander and explore and focus on whatever the world has to offer. Watch a movie? Read a book? Listen to a podcast? Play games? Scroll through another Instagram post? Chat in Discord? Regardless of the medium, others will be just as stingy and careful with their limited attention as you are with yours.
 
-**The general response after something has garnered attention** is what we know as **reception**. Positive reception tends to garner critical acclaim and praise like that given to the entries in the \[GD Awards](<https://youtu.be/Gu40YPKrd_I) and the [GD10 anniversary video](https://youtu.be/mWi_zuXBECw) while negative reception tends to lead to infamy such as map packs, content farming, and hate tracks. While others' attention is beyond your control, that doesn't mean you can’t influence it to an extent. This influence lies in how you set up your level's marketing mix.
+**The general response after something has garnered attention** is what we know as **reception**. Positive reception tends to garner critical acclaim and praise like that given to the entries in the [GD Awards](<https://youtu.be/Gu40YPKrd_I) and the [GD10 anniversary video](https://youtu.be/mWi_zuXBECw) while negative reception tends to lead to infamy such as map packs, content farming, and hate tracks. While others' attention is beyond your control, that doesn't mean you can’t influence it to an extent. This influence lies in how you set up your level's marketing mix.
 
 # 2: Your Level’s Marketing Mix
 
