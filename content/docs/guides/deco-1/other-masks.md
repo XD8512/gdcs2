@@ -119,7 +119,7 @@ Note that the colors are slightly off, as previously stated.
 
 - Bifurcate by RNBW
 
-{{< img src="https://lh3.googleusercontent.com/d/1ERKS1oZZ9jM_rO7sGjNrswewEwJxBPO3" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/1ERKS1oZZ9jM_rO7sGjNrswewEwJxBPO3" >}}
 
 - Zeotrix's part in Teslawolf
 
