@@ -140,19 +140,17 @@ The second example also acts as an example of Area triggers, as the structure's 
 
 * This example was used previously, but the background of this part is entirely made out of one particle object. I did this by randomizing almost every option in order to make the background chaotic.
 
-{{< img src="https://lh3.googleusercontent.com/d/1J9WsnJMI8rD9FnZ10H1mmzdrejuUsm4D" >}}
+{{< youtube "AB2qkjRym3o" >}}
 
 * This first part uses a mix of Gradient triggers, Area triggers, and the Particle Editor. It may be extremely hard to see the Particle Editor's influence on this part, but there is a blending overlay on top of everything that makes the part much more colorful. I have attached a screenshot below which hopefully allows you to see a red and green particle above everything.
 
-{{< img src="https://lh3.googleusercontent.com/d/1HfVlbPgbFeKBPv8dYyb5M1ZTL8rUBDv2" >}}
+{{< img src="https://youtu.be/GEK-YaNfljw" >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/1lg1L9Q3U69gYVpFviSGeGHS6i2qQmeXs" >}}
 
 In particular, the option to randomize movement and color is probably one of the greatest features of the Particle Editor, as it offers endless possibilities for customizing your effects.
 
 Another important concept that can be used effectively is **Ambiguous Motion**, **which refers to visual motion that can be interpreted in multiple ways, due to unclear movements or cues**. For example, the spinning dancer and the barber pole illusions below use ambiguous motion.
-
-{{< img src="https://lh3.googleusercontent.com/d/1CdBMBXuNqb0na-e61skgnustT-0UrX0y" >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/1l0VUtVMIrlJVQoDQ6tqV9vSKUrqyJzM9" >}}
 
