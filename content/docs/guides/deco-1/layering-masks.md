@@ -1,8 +1,12 @@
 ---
 title: Layering Masks
-weight: 5150
 date: 2023-10-13T00:00:00.000Z
-description: Masking is a popular technique used by creators to hide objects or parts of blocks. They’re often used to save time or make neat visual effects. There are many kinds of masks; however, this lesson will focus specifically on layering masks. Layering masks are masks that rely on Z layers to function. This guide will mention a total of 6 of them.
+weight: 5150
+description: Masking is a popular technique used by creators to hide objects or
+  parts of blocks. They’re often used to save time or make neat visual effects.
+  There are many kinds of masks; however, this lesson will focus specifically on
+  layering masks. Layering masks are masks that rely on Z layers to function.
+  This guide will mention a total of 6 of them.
 authors:
   - unknown
 contributors:
@@ -39,11 +43,11 @@ This is one of the simplest methods of masking. It relies on placing blocks over
 ## Examples
 - Auditory Breaker by Manix648 and Lazerblitz
 
-{{< img src="https://lh3.googleusercontent.com/d/1egI5A4iPrYM6QomZyElv6U5oc9W2PyUY" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/1egI5A4iPrYM6QomZyElv6U5oc9W2PyUY" >}}
 
 - Impasse by G4lvatron
 
-{{< img src="https://lh3.googleusercontent.com/d/1hEkKRfTCtiOOouhQB5WNdS7tKVC8ayXx" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/1hEkKRfTCtiOOouhQB5WNdS7tKVC8ayXx" >}}
 
 # 2: Equal Color Mask
 
@@ -71,15 +75,15 @@ When this concept is applied to a block design, as seen here, you get this. Beca
 
 - Curl Up by ilrell and Millepatte
 
-{{< img src="https://lh3.googleusercontent.com/d/175M5FDka3DxHWLJ1OW_C7Ws2oyp7lNHg" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/175M5FDka3DxHWLJ1OW_C7Ws2oyp7lNHg" >}}
 
 - Come Back To Earth by Wulzy
 
-{{< img src="https://lh3.googleusercontent.com/d/1EPqmr-BHGgR7bE7x1WfOwNZyyxI7uEgh" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/1EPqmr-BHGgR7bE7x1WfOwNZyyxI7uEgh" >}}
 
 - Invinciwolf 2 by Werewolf GD (background)
 
-{{< img src="https://lh3.googleusercontent.com/d/1_Z9JMGLckIfUuim1L9yuAJAdwokT-1tx" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/1_Z9JMGLckIfUuim1L9yuAJAdwokT-1tx" >}}
 
 # 3: Color Pair Mask
 
@@ -119,7 +123,7 @@ You can also combine this mask with other animations and visual effects, like th
 
 - Glyph by Optical
 
-{{< img src="https://lh3.googleusercontent.com/d/19Adpn_HoFchVQwHXS6AC9JJQucMGQVLQ" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/19Adpn_HoFchVQwHXS6AC9JJQucMGQVLQ" >}}
 
 # 4: General Layering Mask
 
@@ -161,15 +165,15 @@ Additionally, there is a glow mask variant that can be created:
 
 - Invinciwolf 2 by WerewolfGD (block structures)
 
-{{< img src="https://lh3.googleusercontent.com/d/1OvjeovHT6fELWOPsAPyinZM8Xu8tYSKV" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/1OvjeovHT6fELWOPsAPyinZM8Xu8tYSKV" >}}
 
-{{< img src="https://lh3.googleusercontent.com/d/1_Z9JMGLckIfUuim1L9yuAJAdwokT-1tx" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/1_Z9JMGLckIfUuim1L9yuAJAdwokT-1tx" >}}
 
 - Next Yesterday by ilrell (both old and new versions)
 
-{{< img src="https://lh3.googleusercontent.com/d/1Famu-sTSsIcOLa9RklJPCLCQKS_DpeCD" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/1Famu-sTSsIcOLa9RklJPCLCQKS_DpeCD" >}}
 
-{{< img src="https://lh3.googleusercontent.com/d/1T0ow-gAwLPchE1PKHvqbc-1wcMBcY5VH" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/1T0ow-gAwLPchE1PKHvqbc-1wcMBcY5VH" >}}
 
 # 5: Color Combination Layering Mask
 
@@ -217,11 +221,11 @@ It’s easy to see how the pattern is only visible within the blocks. This can a
 
 Grapheme by Optical
 
-{{< img src="https://lh3.googleusercontent.com/d/1WDsOTQVuawwod1yHPs-samKXVEYZeWbN" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/1WDsOTQVuawwod1yHPs-samKXVEYZeWbN" >}}
 
 Curl Up by ilrell and Millepatte
 
-{{< img src="https://lh3.googleusercontent.com/d/13WEb57aEtHW4RD5hdQRRITsY1XPiKe-h" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/13WEb57aEtHW4RD5hdQRRITsY1XPiKe-h" >}}
 
 # 6: Spu7nix’s Old Mask
 
@@ -258,6 +262,6 @@ Although outdated, it’s an interesting method of masking.
 
 - Hallucion by Spu7nix
 
-{{< img src="https://lh3.googleusercontent.com/d/1lnK0sKIvDp22bJw49USTxmgzYHMOaeHI" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/1lnK0sKIvDp22bJw49USTxmgzYHMOaeHI" >}}
 
-{{< img src="https://lh3.googleusercontent.com/d/104wh_r-9cd9pU2vF-AD5APml5G3TyLUA" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/104wh_r-9cd9pU2vF-AD5APml5G3TyLUA" >}}
