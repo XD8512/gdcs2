@@ -7,6 +7,11 @@
     </div>
 
     <article>
+        {{ if .Params.tags }}
+            <div class="d-flex justify-content-center" style="margin-bottom: -1rem; margin-top: 1.2rem; max-width: 100%;">
+                {{ partial "main/tags.html" . }}
+            </div>
+        {{ end }}
         <h2 class="h3">
             <a class="stretched-link text-body justify-content-center" style="width: fit-content;" href="{{ .RelPermalink }}">
                 {{ partial "main/title.html" .Params.title }}

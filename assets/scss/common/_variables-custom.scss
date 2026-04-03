@@ -9,6 +9,18 @@
   color: var(--bs-black);
 }
 
+.tag-lightdark {
+  background: var(--bs-white);
+  color: var(--bs-primary);
+  border: 1px solid #dadde9;
+}
+
+[data-bs-theme="dark"] .tag-lightdark {
+  background: #1e1f24;
+  color: #b3c7ff;
+  border: 1px solid #2c2d31;
+}
+
 $container-max-widths: (
   sm: 540px,
   md: 720px,

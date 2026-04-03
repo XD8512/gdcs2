@@ -27,17 +27,24 @@
 					</ol>
 				</nav>
 			{{ end }}
-			<div style="margin-bottom: -1rem; padding-top: 1rem;">
+
 			{{ if site.Params.doks.editPage -}}
+				<div style="margin-bottom: -1rem; padding-top: 0.5rem;">
 					{{ partial "main/edit-page.html" . }}
-				{{ end -}}
-			</div>
+				</div>
+			{{ end -}}
+
+			{{- if .Params.tags -}}
+				<div style="margin-bottom: -1.2rem; margin-top: 2rem;">
+					{{- partial "main/tags.html" . -}}
+				</div>
+			{{- end -}}
 
 			<h1>{{ partial "main/title.html" .Title }}</h1>
 
 			{{- "** **" | .Page.RenderString -}}
 
-			<div class="d-flex flex-column flex-md-row justify-content-between" style="margin-bottom: 0.5rem;">
+			<div class="d-flex flex-column flex-md-row justify-content-between" >
 
 				<div>
 					{{ partial "main/credits-section.html" . }}

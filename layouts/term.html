@@ -40,6 +40,11 @@
         {{ end -}}
         <div class="card-body">
           <article>
+            {{ if .Params.tags }}
+              <div style="margin-bottom: -1rem; margin-top: 1.5rem;">
+                {{ partial "main/tags.html" . }}
+              </div>
+            {{ end }}
             <h2 class="h3 mb-0"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ partial "main/title.html" .Params.title }}</a></h2>
             <!--- <p>{{ .Params.summary | safeHTML }}</p> --->
             {{ partial "main/contributor-blog-meta.html" . -}}
