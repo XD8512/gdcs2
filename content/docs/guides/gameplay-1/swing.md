@@ -31,23 +31,23 @@ A common thing done in many levels is to build gameplay that takes as much advan
 
 Take as an example the 2nd Section made for the Swing from the main level [Dash](<https://www.youtube.com/watch?v=LELzrqozNpI&t=31s>) by **RobTop** (34%), this section is made intrinsically for the Swing, as the gameplay is centered around the curved path the vehicle follows.
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1-u4nJWaod1zntD8qOJu-NtZ68LQrATGV" >}}
 
 # 2: Gameplay Readability
 
 Gameplay built around Swing gamemode is typically better when the inputs from the player are **measured**, meaning __there is a set amount of inputs the player must do using the vehicle__. This usually applies, unless the section is wide enough for the player to fly around without getting confused. The reason why is because the Swing’s current gravity usually is not noticeable, and mindless fast inputs may confuse the player, ending in the opposite gravity that is required to keep in track. This makes the use of the vehicle unpredictable and makes readability worse, which is often a downgrade for gameplay to be enjoyable.
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/14rKJsmdTQvgxXpqlHAejExIlkmob6Os_" >}}
 
 Examples of measured Swing gameplay include the 89% Swing section in [Placid Ivy Grove](<https://www.youtube.com/watch?v=8oFlCcaJ9hQ&t=59s>) by **truongwf**, and the two Swing sections in [Exotic Soul](<https://www.youtube.com/watch?v=LAGCUE4bmUM&t=55s>) by **Kiriia**. In both levels, the timings on where the player needs to tap are hinted using indicators, and in Placid Ivy Grove’s section, the path the Swing must follow is also indicated. This ensures the player knows exactly where the inputs must go and improves the gameplay’s readability.
 
 **Placid Ivy Grove** (89%)
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1TiWz4W_-Bm47X7s0Xt4NoaQQZpRbiHCO" >}}
 
 **Exotic Soul** (67%)
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1KrsAne72Nx8HetTiT6fpE9B5oLnguT4T" >}}
 
 On the other hand, Dash and Cosmic Dolphin by **DeeperSpace** both provide a good example of a wide area that allows the Swing to fly with no strict path. The gameplay is built in an intuitive way, without using any indicators; the player knows when to change gravity to go as the path shows. This type of gameplay gives freedom to the player, but normally this would be reserved for easier levels that let such gameplay sections work in the first place.
 
@@ -66,9 +66,9 @@ make a path that takes into account the exact way the vehicle should go; in the 
 
 Orbs are the best way to fill the need for quick inputs, making them noticeable, controlled and useful. The physics of the vehicle allows for Orb and Portal interactions no other gamemode has. The floatiness of the Swing causes the Orb and Portal interactions to be extended in reach, while maintaining the same height as the other vehicles. As a side note, even though these interactions are different from the rest of the gamemodes, making a gameplay around Swing shouldn’t depend primarily on Orbs nor Gravity Portals.
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1cur5vgl8exIRCqDbSicil0WmRDLzE5nk" >}}
 
--# *Distance reached by the Cube and the Swing while interacting with an Orb*
+<span style="color: gray;">*Distance reached by the Cube and the Swing while interacting with an Orb*</span>
 
 # 5: Song Representation
 

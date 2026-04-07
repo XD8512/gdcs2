@@ -79,8 +79,6 @@ Platforms and structures are essential. When jumping or falling off platforms, t
 
 Orbs and Pads will launch the player at the same speed and height in every attempt, as long as the player enters or clicks the object at roughly the same spot every time. Using several orbs consecutively is not ideal since the player's position will be altered depending on when you click the orb. As explained in the previous point, using orbs can be consistent if you use them when jumping or falling off a platform.
 
-** **
-
 Flying Game Modes (Ship, UFO, Wave, Swing) are more likely to cause issues with consistency, especially during transitions. Using orbs with ship and swing, wave spam sections, gravity changes and slopes with UFO, and clicking right before entering any portal can cause potential inconsistencies, causing players to die unfairly due to the variation in potential outcomes. To avoid this, you need to consider how the game modes behave, keeping things like acceleration and position in mind. You can also place portals before orbs as it will make the gameplay more understandable and consistent. The images below show how inconsistent orb clicks into portals can be. These inconsistencies can be fixed by simply moving the portal slightly in front of the orb.
 
 {{< img src="https://lh3.googleusercontent.com/d/1cuQNnSS2i9_Nmz4DxOWfC0ySZ-5_rsLz" >}}
@@ -98,8 +96,6 @@ The options trigger can be very beneficial to fix different types of gameplay. W
 **During transitions**, you can disable the controls for a short period of time in case the player accidentally clicks or holds. Disabling the player controls during a transition will make the player have the same outcome in every attempt, as well as keep the player from dying randomly to invisible objects. You may see this as a viable option especially in fast paced gameplay.
 
 **Dual Gameplay** can sometimes be difficult to make consistent. Holding for a bit longer could make you jump with the other player if the structures are very close together. With the options trigger, you can disable either player 1 or player 2 controls depending on which player isn't meant to have an input. Unlinking duals can also make gameplay more consistent. When you have the gravity linked, when you change gravity with one player, the other will change as well. This can cause inconsistencies depending on how the player was previously moving. Unlinking the gravity can prevent this, but you will have to make the gravity change manually if needed.
-
-** **
 
 **Fast and sudden changes** can be confusing for the player, and they won't have enough time to react. You can enable and disable player controls accordingly so the player can hold and continue the gameplay. The gamemodes you will find this more useful in are wave, ship, and cube.
 

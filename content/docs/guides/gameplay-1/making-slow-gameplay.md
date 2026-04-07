@@ -49,7 +49,7 @@ In this gameplay, I aimed to make the first half a bit more straightforward and 
 
 The second half mixes things up by including pads and orbs which you must avoid to complete the part. This forces the player to make some strategic decisions for how to play the part – at least, during the process of learning it. When making this gameplay I made the correct path first then added extra obstacles later.
 
-https://lh3.googleusercontent.com/d/1siYhNVkA6XillqiLl2TAkxk4Pj8iL9ke >}}
+None
 
 Besides this, here are some other examples of slow gameplay.
 
