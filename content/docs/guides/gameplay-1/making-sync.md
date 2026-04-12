@@ -37,7 +37,7 @@ There are many ways you can convey sync — and in turn energy — in your gamep
 
 # 2: Ways to Make Sync
 
-## Music Line :MusicPlaytest:
+## Music Line
 
 The music line follows the X-position of the cube unless an arrow trigger is used, which switches between vertical or horizontal movement. Using the music line can be useful in this case since otherwise, it would be difficult to discern where to place synced elements or build transitions this way. It helps to use the playback option to start the music line from the arrow trigger for more accuracy. This option can also be enabled for speed portals.
 
@@ -61,7 +61,7 @@ Since this feature doesn’t allow for differently colored or different opacitie
 
 {{< img src="https://lh3.googleusercontent.com/d/11OHwBxdqHerxPUsaC-ifdiet5crrNZ23" >}}
 
-## BPM Trigger :BPMTrigger:
+## BPM Trigger
 
 The [BPM trigger](/docs/guides/triggers-1/bpm/) works similarly to guidelines, but is strictly aligned to the BPM set. You can also place beats between the bars with the **BPB** (Beats Per Bar) slider. This is helpful for adding extra clicks in the gameplay, which allows for engaging click patterns.
 
@@ -77,7 +77,7 @@ Speed Hack can be useful for increasing precision with sync. This is mostly used
 
 When making accurate sync, speed portal position should be taken into account. The Music Line ignores its perpendicular axis, which affects objects like speed portals; The speed will always change at a predetermined point. While playtesting, the spot in which the player collides with a speed portal changes the speed.
 
-Fixing this behaviour is simple: By using a Follow Player Y :FollowPlayerY: trigger, you can have a secondary portal that prevents the player from being able to jump over the original portal, mitigating desync.
+Fixing this behaviour is simple: By using a Follow Player Y trigger, you can have a secondary portal that prevents the player from being able to jump over the original portal, mitigating desync.
 
 {{< img src="https://lh3.googleusercontent.com/d/1N-S4yL55R1uVNHaa54prdxQor4FwViOk" >}}
 
