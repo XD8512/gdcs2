@@ -91,7 +91,7 @@ There are two helpful ways to set your scope and prioritize when making plans: t
 - **Must** haves,
 - **Should** haves,
 - **Could** haves,
-- **Would** haves.
+- **Won't** haves.
 
 When making a level, prioritize your must-have features first, then your should-haves, and so on. If you find yourself struggling to implement a non-essential feature, consider taking a break or scrapping it for a different feature. If you can't implement a must-have, consider how necessary it is for your level, and use Occam's Razor to assess your work. That is a topic for the [next guide](/docs/guides/main-skills/making-a-draft/) though, where it'll be covered in more detail.
 
