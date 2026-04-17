@@ -18,8 +18,10 @@ description: learning how to use shaders
 
 
 
+
 This guide is missing the following:
 - Examples
+
 
 
 
@@ -39,11 +41,13 @@ This guide is missing the following:
 
 
 
+
 * Shaders are effects that cover the whole screen.
 * They can enhance your level's atmosphere and immersion, but they do not affect gameplay itself.
 * Use shaders in key moments like drops, transitions, and intensity changes to emphasize important beats in the music and structure of your level.
 * Keep effects controlled and make sure they have a clear purpose. Overusing shaders can cause lag, reduce visibility, and make your level feel messy, rather than polished.
 * You can use Shaders beyond their regular "limits" to get different effects.
+
 
 
 
@@ -83,9 +87,11 @@ Because of this, shaders should be treated as something you keep in mind through
 
 
 
+
 - Does the shader effect match the theme/mood of the music?
 - Does it improve the quality of the theme/mood?
 - Is it making the player's experience better and more immersive?
+
 
 
 
@@ -201,7 +207,12 @@ For example, the 3 images below show the before and after of using an edit colou
 Although this effect isn't very well known, it's actually used in levels like Eta Carnis. By using a gradient trigger and setting one colour pitch black (0, 0, 0,) and the other one to some very dark color that tints toward one colour, (eg. 8, 7, 7, where 8 would be the color that it's tinted towards.) we can add a saturation booster which boosts the saturation of the colour that it's tinted towards, (In this case red.) and keep the other one pitch black. (As 0, 0, 0, saturation boosted is still the same)
 
 {{< img-grid >}}
-undefined
+{{< img src="https://lh3.googleusercontent.com/d/1GEpvA1tt22IkKo_FFEE4QbVG5qUbuJVr" >}}
+
+{{< img src="https://lh3.googleusercontent.com/d/1jssxRc76nk9Q8JO6iSbS2H2nsDsHLXV-" >}}
+
+
+{{< img src="https://lh3.googleusercontent.com/d/1oJo-pADPmMSizJEMj6jLS9Yl0WmN735d" >}}
 {{< /img-grid >}}
 
 This creates a banding effect, despite being just one gradient trigger. It's a trippy effect that is very unstable, and very chaotic. Due to this fact, I suggest trying it out in a separate level and experimenting with it. You can also try putting black glow circles above the gradient. Enjoy ;)
