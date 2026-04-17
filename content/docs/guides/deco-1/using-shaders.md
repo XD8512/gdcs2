@@ -198,7 +198,7 @@ Although this effect isn't very well known, it's actually used in levels like Et
 
 This creates a banding effect, despite being just one gradient trigger. It's a trippy effect that is very unstable, and very chaotic. Due to this fact, I suggest trying it out in a separate level and experimenting with it. You can also try putting black glow circles above the gradient to see what happens. Enjoy ;)
 
-{{< youtube ?v=LNMpe_BXtQM&t=56s >}}
+{{< youtube id=LNMpe_BXtQM start=56 >}}
 
 An example of this banding effect being used in Eta Carnis.
 
